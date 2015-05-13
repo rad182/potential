@@ -39,7 +39,7 @@ Artsy keeps all of our code on [Github](https://github.com/artsy/). Make sure yo
 
 You’ll notice that our Github repos are named after physics terms. Ask dB if you want to know why.
 
-See [this Trello board](https://trello.com/b/VLlTIM7l/artsy-engineering-projects-map) for an in-depth look at our (many) repos and who owns them. It can be a bit overwhelming, so here’s a breakdown of a few important ones:
+See the [engineering projects map](https://trello.com/b/VLlTIM7l/artsy-engineering-projects-map) for an in-depth look at our (many) repos and who owns them. It can be a bit overwhelming, so here’s a breakdown of a few important ones:
 * [Gravity](https://github.com/artsy/gravity): Artsy’s API
 * [Force](https://github.com/artsy/force): Artsy desktop website (artsy.net)
 * [MicroGravity](https://github.com/artsy/microgravity): Artsy mobile website
@@ -50,7 +50,7 @@ See [this Trello board](https://trello.com/b/VLlTIM7l/artsy-engineering-projects
 ##### AWS
 In order to get things like Gravity set up, you’ll need the proper AWS credentials. Ask your mentor to give these to you as well.
 
-We use [AWS](https://artsy.signin.aws.amazon.com/console) for...
+We use [AWS](https://artsy.signin.aws.amazon.com/console) for storage (S3), hosting websites (OpsWorks), and analytics (Redshift), among other things.
 
 ### Artsy Engineering Operations
 
@@ -60,7 +60,7 @@ See [Carter’s email from the fall](https://groups.google.com/a/artsymail.com/f
 Artsy engineering is broken up into four major teams:
 * Platform
     - Team lead: Joey
-    - Slack: [#core](https://artsy.slack.com/messages/core)
+    - Slack: [#platform-humans](https://artsy.slack.com/messages/platform-humans)
 * Mobile
     - Team lead: Orta
     - Slack: [#mobile](https://artsy.slack.com/messages/mobile)
@@ -117,10 +117,14 @@ If you are unfamiliar with Git, check out this [short tutorial](https://try.gith
 The Github blog has a nice article on [writing quality pull requests](https://github.com/blog/1943-how-to-write-the-perfect-pull-request).
 
 ### Deploying software
-* semaphore
-* travis
-* explain our workflow (PR -> CI -> deploy)
-* philosophy behind deployment (small changes)
+
+Once your pull request is merged, we use services like [Semaphore](https://semaphoreci.com/) and [Travis](https://magnum.travis-ci.com/) to run a full build of the app to make sure the code changes did not break existing features.
+
+Most of our apps do not automatically deploy once the CI (continuous integration) step succeeds. Instead, you have to manually deploy the code to where it's hosted (usually either [Heroku](https://dashboard.heroku.com/) or [OpsWorks](https://console.aws.amazon.com/opsworks/home)). This process is app-specific, but generally done through the [Jenkins](http://joe.artsy.net:9000/) or Semaphore UI, or the command line.
+
+We don't have a set deployment cycle for our web apps (developing for iOS is a different story...). At Artsy, we value small improvements through pull requests, and incremental deploys. You don't need permission to deploy-- you just have to announce when you plan to deploy something in the relevant slack channel in case someone is intentionally putting it off.
+
+Our API app, Gravity, is hosted on OpsWorks. For more information on why we chose OpsWorks for this app, and *what it all means*, check out Joey's [Introduction to AWS OpsWorks](http://artsy.github.io/blog/2013/08/27/introduction-to-aws-opsworks/) blog post.
 
 ## If you get stuck
 
@@ -143,28 +147,7 @@ Everyone is really friendly-- don't hesitate to reach out to the people around y
 
 * Platform
     - [Platform Team Playbook](platform.md)
-    - [Platform Team FAQ](platform_fq.md)
+    - [Platform Team FAQ](platform_faq.md)
 * Mobile
 * PE
 * Web
-
----
-
-## Things to add
-* Explanation of things like Grape, etc. (how our API works)
-* How to write Mongo scripts
-* Reporting (our analytics pipeline... maybe this should live somewhere else)
-* General learning (link to tutorials or exercises)
-    - Git
-    - Ruby
-    - Rails
-    - SQL
-    - Node
-* Point to general Artsy resources/cheat sheets
-* (not a doc) Setting up meetings with someone from each engineering team throughout their first few weeks
-    - idea from Asana: after this meeting, they collaborate with the 'expert' to improve the docs on that topic
-* Think about an exercise that could be done in the first few days
-    - maybe something that people pair on (pair for at least half a day)
-* Explanation of other teams at Artsy
-* Get familiar with actual Artsy projects (not just looking at the code)
-* Domain knowledge

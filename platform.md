@@ -11,7 +11,7 @@
 Current members of the Platform Team are: [Joey](https://github.com/joeyaghion), [Matt](https://github.com/mzikherman), [Will](https://github.com/wrgoldstein), and [Sarah](https://github.com/sweir27). 
 
 ### Logistics
-* Daily stand-up is at 11:30 on the [hangout](https://www.artsy.net/corestandup)
+* Daily stand-up is at 11:30 on the [hangout](https://www.artsy.net/platformstandup)
     * What are you working on or need help with?
     * Review the [Trello board](https://trello.com/b/2lTTggr8/platform-engineering)
     * Explain any new additions or requests
@@ -19,8 +19,8 @@ Current members of the Platform Team are: [Joey](https://github.com/joeyaghion),
     * Cards describe “stories”: deployable chunks, focusing on user impact
     * Work that’s well-understood starts in the “Next” column, from which it’s pulled into “Now,” deployed to “Shipped/Monitoring,” then finally “Delivered” when it’s confirmed to work as expected in production.
     * We sometimes track less well-understood or larger projects in the “Ideas” column
-* Chat in [#core](https://artsy.slack.com/messages/core/)
-* Github notifications, etc. in [#core-notifications](https://artsy.slack.com/messages/core-notifications/)
+* Chat in [#platform-humans](https://artsy.slack.com/messages/platform-humans/)
+* Github notifications, etc. in [#platform-machines](https://artsy.slack.com/messages/platform-machines/)
 
 ### Our Apps
 * [Gravity](https://github.com/artsy/gravity): main API 
@@ -31,7 +31,7 @@ Current members of the Platform Team are: [Joey](https://github.com/joeyaghion),
 * [Reflection](https://github.com/artsy/reflection): page pre-rendering for SEO 
 * [Lattice](https://github.com/artsy/lattice): custom report generator 
 * [Helix](https://github.com/artsy/helix): dedicated app for genoming artworks/artists 
-* See [this Trello board](https://trello.com/b/VLlTIM7l/artsy-engineering-projects-map) for a comprehensive list of Platform Team apps.
+* See the [engineering projects map](https://trello.com/b/VLlTIM7l/artsy-engineering-projects-map) for a comprehensive list of Platform Team apps.
 
 ### Our Dashboards
 * Team KPIs: http://artsy-dashing.herokuapp.com/platform
