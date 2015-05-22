@@ -1,11 +1,11 @@
 ## What is Git/Github?
 
-Git is a 'Distributed Version Control System,' in that each client creates a complete mirror of the
+Git is a Distributed Version Control System, in that each client creates a complete mirror of the
 working repository. It records any changes to a set of files that the client makes and allows you to
 recall earlier versions.
 
 For a more comprehensive description of what is unique and preferable about Git in regards to other
-'Version Control Systems,' a thorough overview of its commands and a brief summary of its history,
+Version Control Systems, a thorough overview of its commands and a brief summary of its history,
 see the [Git Manual Pages](http://git-scm.com/book/en/v2/Getting-Started-About-Version-Control).
 
 Github is an online repository for Git projects which we use to host Artsy's codebases and allow
@@ -105,7 +105,7 @@ way, you can view them as branching tree.
 git log --graph
 ````
 
-####Stats
+####Status
 
 If you want to see the status of your current working environment, git provides ````status````,
 which will let you know what is different from the last commit in your current working directory and
@@ -142,9 +142,10 @@ staging area, we use ````add````.
 git add [filename]
 ````
 
-You can also add all changes and all new files quickly using:
+You can also add all changes, and tell git which new files to start tracking ( and which deleted ) ones
+to stop tracking quickly using:
 ````
-git add .
+git add --all
 ````
 
 When you feel that the files and changes that you have staged are in a state that you'd like to save
@@ -160,6 +161,14 @@ git commit -m "[title for commit]"
 > Lean towards using the plain ````git commit```` rather than the command line version, it takes a bit
 longer but writing summaries and spending more time on your commit messages will help prevent
 ambiguity down the line.
+
+Finally, if you need to remove a file from the index and you want to tell git to stop tracking that
+file in your next commit, you can ````rm```` (remove) the file.
+````
+git rm [file to remove]
+````
+> If you use terminal's normal ````rm [file to remove]```` function you will have to additionally 'stage'
+that deletion to git, i.e. ````git add [file you removed]````.
 
 ### Undoing Changes
 

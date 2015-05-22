@@ -153,5 +153,7 @@ Everyone is really friendly-- don't hesitate to reach out to the people around y
 * Mobile
 * PE
 * Web
-* [Git and Github](github.md)
-* [Style Guide](style_guide.md)
+* General Engineering Practices
+    - [Git and Github](github.md)
+    - [Style Guide](style_guide.md)
+    - [Github Excercise](github_excercise.md)
