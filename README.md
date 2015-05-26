@@ -110,11 +110,11 @@ As all of our code is housed on Github, we make contributions through [pull requ
 
 If you are unfamiliar with Git, check out this [short tutorial](https://try.github.io) on basic git commands (such as `git status`, `git commit`, and `git push`).
 
-If you'd like a more comprehensive review of Git and Github and how we use them, you can look at our Guide to [Git and Github](github.md).
+If you'd like a more comprehensive review of Git and Github and how we use them, you can look at our Guide to [Git and Github](https://gist.github.com/gristleism/c2812efb2fc4daeee119).
 
 ##### Style guide
 
-For a more indepth guide to our contribution workflow and our style preferences for Git and Pull Requests, you can view our [Style Guide](style_guide.md).
+For a more indepth guide to our contribution workflow and our style preferences for Git and Pull Requests, you can view our [Style Guide](https://gist.github.com/gristleism/c2812efb2fc4daeee119).
 
 The Github blog also has a nice article on [writing quality pull requests](https://github.com/blog/1943-how-to-write-the-perfect-pull-request).
 
@@ -154,6 +154,6 @@ Everyone is really friendly-- don't hesitate to reach out to the people around y
 * PE
 * Web
 * General Engineering Practices
-    - [Git and Github](github.md)
-    - [Style Guide](style_guide.md)
+    - [Git and Github](https://gist.github.com/gristleism/c2812efb2fc4daeee119)
+    - [Github Style Guide](https://gist.github.com/gristleism/967e4e7ad2da4f472aa6)
     - [Github Excercise](github_excercise.md)
