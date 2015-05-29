@@ -1,6 +1,6 @@
 # Artsy Engineering Team Onboarding
 
-Welcome to Artsy! We’re excited to have you. Before you begin this guide, keep in mind that it is a work in progress and your first PR at Artsy could be fixing a typo/adding more information to this doc. 
+Welcome to Artsy! We’re excited to have you. Before you begin this guide, keep in mind that it is a work in progress and your first PR at Artsy could be fixing a typo/adding more information to this doc.
 
 This will guide you through some basic readings/tasks to get you started engineering @Artsy. If you have questions feel free to reach out to your mentor or anyone else on the dev team.
 
@@ -14,7 +14,7 @@ Whether you're a seasoned engineer or fresh out of school, read dB’s short blo
 Ask dB for access to the Artsy Engineering 1Password Vault. You'll need to have this set up in order to access many of the services we use.
 
 ##### Slack
-If you haven’t already, get on [Slack](https://artsy.slack.com/). You can download it from the [Apple store](https://itunes.apple.com/us/app/slack/id803453959?mt=12). We use Slack for all internal messaging, and prefer it to email in basically all cases. 
+If you haven’t already, get on [Slack](https://artsy.slack.com/). You can download it from the [Apple store](https://itunes.apple.com/us/app/slack/id803453959?mt=12). We use Slack for all internal messaging, and prefer it to email in basically all cases.
 
 Slack channels for every engineer to join:
 * [#dev](https://artsy.slack.com/messages/dev): For asking questions to all engineers, or discussing things related to the dev team as a whole.
@@ -75,7 +75,7 @@ Artsy engineering is broken up into four major teams:
 We have an engineering team-wide standup on *Mondays at 2 p.m.* where we give a high-level overview of what we worked on the previous week and what we hope to accomplish in the coming week.
 
 ##### Open Source Culture + Projects
-At Artsy, we <3 open source and encourage you to become part of the community. Here is a [list of some open source technologies](http://artsy.github.io/open-source/) we are currently using. 
+At Artsy, we <3 open source and encourage you to become part of the community. Here is a [list of some open source technologies](http://artsy.github.io/open-source/) we are currently using.
 
 Read dB’s blog post on [Becoming Open Source by Default](http://code.dblock.org/2015/02/09/becoming-open-source-by-default.html).
 
@@ -103,18 +103,20 @@ If you do use Sublime, here are some plugins you might want to get you started:
 * [git gutter](https://github.com/jisaacks/GitGutter)
 * [Markdown preview](https://github.com/revolunet/sublimetext-markdown-preview)
 
-##### Style guide
 
-## Our Process
+### Making contributions
+
 As all of our code is housed on Github, we make contributions through [pull requests](http://artsy.github.io/blog/2012/01/29/how-art-dot-sy-uses-github-to-build-art-dot-sy/).
 
 If you are unfamiliar with Git, check out this [short tutorial](https://try.github.io) on basic git commands (such as `git status`, `git commit`, and `git push`).
 
-### Making contributions
+If you'd like a more comprehensive review of Git and Github and how we use them, you can look at our Guide to [Git and Github](https://gist.github.com/gristleism/c2812efb2fc4daeee119).
 
-**Insert Ian's Github guide here**
+##### Style guide
 
-The Github blog has a nice article on [writing quality pull requests](https://github.com/blog/1943-how-to-write-the-perfect-pull-request).
+For a more indepth guide to our contribution workflow and our style preferences for Git and Pull Requests, you can view our [Style Guide](https://gist.github.com/gristleism/c2812efb2fc4daeee119).
+
+The Github blog also has a nice article on [writing quality pull requests](https://github.com/blog/1943-how-to-write-the-perfect-pull-request).
 
 ### Deploying software
 
@@ -151,3 +153,7 @@ Everyone is really friendly-- don't hesitate to reach out to the people around y
 * Mobile
 * PE
 * Web
+* General Engineering Practices
+    - [Git and Github](https://gist.github.com/gristleism/c2812efb2fc4daeee119)
+    - [Github Style Guide](https://gist.github.com/gristleism/967e4e7ad2da4f472aa6)
+    - [Github Excercise](github_excercise.md)
