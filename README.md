@@ -56,17 +56,18 @@ See [Carter’s email from the fall](https://groups.google.com/a/artsymail.com/f
 Artsy engineering is broken up into four major teams:
 
 * Platform
-    - Team lead: Joey
+    - Team lead: [Joey](https://github.com/joeyAghion) [joey.aghion.com](http://joey.aghion.com)
     - Slack: [#platform-humans](https://artsy.slack.com/messages/platform-humans)
     - [Platform Team Onboarding](platform/platform.md)
 * Mobile
-    - Team lead: Orta
+    - Team lead: [Orta](https://github.com/orta) [orta.io](http://orta.io)
     - Slack: [#mobile](https://artsy.slack.com/messages/mobile)
+    - [Mobile Team Onboarding](mobile/mobile.md)
 * Web
-    - Team lead: Craig
+    - Team lead: [Craig](https://github.com/craigspaeth) [craigspaeth.com](http://craigspaeth.com)
     - Slack: [#web](https://artsy.slack.com/messages/web)
 * Partner Engineering
-    - Team lead: Dylan
+    - Team lead: [Dylan](https://github.com/dylanfareed) [dylanfareed.com](http://dylanfareed.com/)
     - Slack: [#pe](https://artsy.slack.com/messages/pe)
 
 ##### Engineering Team Standup
