@@ -1,6 +1,6 @@
 # Slack
 
-Get on [Slack](https://artsy.slack.com). You can download the OSX app from the [Apple store](https://itunes.apple.com/us/app/slack/id803453959?mt=12). Also install it on your phone. We use Slack for all internal messaging, and prefer it to email in, basically, all cases.
+Get on [Slack](https://artsy.slack.com). You can download the OS X app from the [Apple store](https://itunes.apple.com/us/app/slack/id803453959?mt=12). Also install it on your phone. We use Slack for all internal messaging, and prefer it to email in, basically, all cases.
 
 ### Engineering Slack Channels
 

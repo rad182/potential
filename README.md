@@ -12,7 +12,7 @@ Whether you're a seasoned engineer or fresh out of school, take a moment to read
 
 #### Onboarding
 
-You have been onboarded by ops. You now know where we keep the snacks! Awesome.
+You have been onboarded by ops. You have a mentor and a spirit guide. You now know where we keep the snacks! Awesome.
 
 ##### 1Password + Dropbox
 

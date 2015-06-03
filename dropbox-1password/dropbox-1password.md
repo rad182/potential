@@ -4,9 +4,9 @@
 
 ## Configure Dropbox
 
-Download and install Dropbox from [https://www.dropbox.com/download](https://www.dropbox.com/download).
+Download and install Dropbox from [https://www.dropbox.com/download](https://www.dropbox.com/download) or the [AppStore](https://itunes.apple.com/us/app/dropbox/id327630330).
 
-You should have received an invitation to your Artsy dropbox with an @artsymail.com email address. Configure a personal account and an Artsy account in Dropbox side-by-side. If you don’t have a personal dropbox account, create one. This will allow you to access Artsy passwords with a personal master password.
+You should have received an invitation to your Artsy dropbox with an `@artsymail.com` email address. Configure a personal account and an Artsy account in Dropbox side-by-side. If you don’t have a personal dropbox account, create one. This will allow you to access Artsy passwords with a personal master password.
 
 ![](account.png)
 
@@ -14,7 +14,7 @@ You should have received an invitation to your Artsy dropbox with an @artsymail.
 
 You must use 1Password for your own passwords as well as for Artsy passwords. Artsy will buy you a 1Password license if you don’t already have one. Ops will provide you with a key.
 
-Download and install 1Password version 4 (older versions don’t support multiple vaults) from [https://agilebits.com/downloads](https://agilebits.com/downloads).
+Download and install 1Password version 4 (older versions don’t support multiple vaults) from [https://agilebits.com/downloads](https://agilebits.com/downloads) or the [AppStore](https://itunes.apple.com/us/app/1password-password-manager/id443987910).
 
 Configure it for your personal use with a strong password that you will remember. This creates a so-called "Primary" vault. Place the vault in your personal dropbox folder via the 1Password, _Preferences_ menu under the _Sync_ tab.
 
