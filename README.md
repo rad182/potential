@@ -1,19 +1,25 @@
 # Artsy Engineering Team Onboarding
 
-Welcome to Artsy! We’re excited to have you. Before you begin this guide, keep in mind that it is a work in progress and your first PR at Artsy could be fixing a typo/adding more information to this doc.
+Welcome to Artsy! If you're not an Artsy team member we hope you'll find these docs useful and maybe check out our [jobs](https://www.artsy.net/jobs) or just send us a resume to [jobs@artsy.net](mailto:jobs@artsy.net).
 
-This will guide you through some basic readings/tasks to get you started engineering @Artsy. If you have questions feel free to reach out to your mentor or anyone else on the dev team.
+If you're a new team member, we’re excited to have you! Before you begin this guide, keep in mind that it is a work in progress and your first PR at Artsy could be fixing a typo/adding more information to this doc. This will guide you through some basic readings/tasks to get you started engineering @Artsy. If you have questions feel free to reach out to your mentor or anyone else on the dev team.
 
-Whether you're a seasoned engineer or fresh out of school, read dB’s short blog post [Your first 60 days at an engineering job](http://code.dblock.org/2015/04/23/your-first-60-days-at-an-engineering-job.html).
+Whether you're a seasoned engineer or fresh out of school, take a moment to read [Your First 60 Days at an Engineering Job](http://code.dblock.org/2015/04/23/your-first-60-days-at-an-engineering-job.html).
 
 ## Information, etc.
 
 ### Administrativa
 
-##### 1Password
-Ask dB for access to the Artsy Engineering 1Password Vault. You'll need to have this set up in order to access many of the services we use.
+#### Onboarding
+
+You have been onboarded by ops. You now know where we keep the snacks! Awesome.
+
+##### 1Password + Dropbox
+
+Download and install Dropbox and 1Password and configure 1Password vaults as described [in this guide](dropbox-1password/dropbox-1password.md).
 
 ##### Slack
+
 If you haven’t already, get on [Slack](https://artsy.slack.com/). You can download it from the [Apple store](https://itunes.apple.com/us/app/slack/id803453959?mt=12). We use Slack for all internal messaging, and prefer it to email in basically all cases.
 
 Slack channels for every engineer to join:
