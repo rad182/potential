@@ -1,5 +1,7 @@
 # Platform Team Playbook
 
+* [FAQ](platform_faq.md)
+
 ## Team Information
 
 ### Team Goals

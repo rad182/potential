@@ -5,7 +5,7 @@ How to...
 #### Suggest a feature or point out a bug
 Contact any Platform team member
 
-#### Get a read-only data console: 
+#### Get a read-only data console:
 https://docs.google.com/a/artsymail.com/document/d/1hCTBaynWLnSxgNQEWRTU1nm27KIizQiLgO5b0jHs7hA/edit
 
 #### Add a new AWS user
@@ -21,7 +21,7 @@ https://docs.google.com/a/artsymail.com/document/d/1hCTBaynWLnSxgNQEWRTU1nm27KIi
 10. Send the user their name, password, access key ID, secret access key, and the sign-in link
 11. For SSH access, the user will need to upload their SSH public key to their new account
 
-#### Scale the API’s server capacity 
+#### Scale the API’s server capacity
 (e.g., in advance of emails or expected traffic surges)
 
 1. Log in to AWS with your IAM account at [Artsy’s dedicated sign-in page](https://artsy.signin.aws.amazon.com/console) (request an account if you don’t have one)
