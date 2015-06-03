@@ -20,24 +20,10 @@ Download and install Dropbox and 1Password and configure 1Password vaults as des
 
 ##### Slack
 
-If you haven’t already, get on [Slack](https://artsy.slack.com/). You can download it from the [Apple store](https://itunes.apple.com/us/app/slack/id803453959?mt=12). We use Slack for all internal messaging, and prefer it to email in basically all cases.
-
-Slack channels for every engineer to join:
-* [#dev](https://artsy.slack.com/messages/dev): For asking questions to all engineers, or discussing things related to the dev team as a whole.
-* [#dev-offtopic](https://artsy.slack.com/messages/dev-offtopic): Random things you want to send to the dev team that are not specifically work-related.
-* [#help](https://artsy.slack.com/messages/help): For asking and answering questions.
-
-A couple of Slack protocols/tricks:
-* Typing `@channel` in any channel will send a notification to everyone in that channel. Refrain from doing this unless it’s imperative that everyone see your message. You can also `@` people directly in a channel, or direct-message them.
-* `/hangout` starts a google hangout in that channel
-* Slack uses markdown for styling text.
-    - \`\`\````multi-line code```\`\`\`
-    - \``single-line code`\`
-    - \**italic*\*
-    - \*\***bold**\*\*
-* Read this short article on [getting the most out of Slack](https://medium.com/@slackhq/11-useful-tips-for-getting-the-most-of-slack-5dfb3d1af77)
+Download and install Slack, see [this guide](slack/slack.md) for details.
 
 ##### Trello
+
 Each team does task management slightly differently, but in general we use [Trello](https://trello.com/) for high-level tasks and github issues for project-level tasks. Ask your mentor to get you signed up and subscribed to the relevant Trello boards.
 
 ##### Github
