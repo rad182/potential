@@ -49,7 +49,7 @@ you should see the option to 'Compare & Pull Request.' You can look over the sta
 relation to the repository on Github ( commits, files changed and their differences related to the current
 repository, etc... ).
 
-![alt text](images/compare_and_pull_request.png)
+![](compare_and_pull_request.png)
 
 To submit your code for review, we title the Pull Request by describing what the Pull Request is
 changing in the code, and @ another engineers Github account to designate it for their review.
@@ -57,7 +57,7 @@ changing in the code, and @ another engineers Github account to designate it for
 Try to give a brief description of the change, how it was implemented, and if it's closing any open
 issues. Example:
 
-![alt text](images/pr_example.png)
+![](pr_example.png)
 
 This means that @artsyengineer will look over our code and comment on any code that will need to be changed
 before the branch is appropriate for merging. As well, Github will start running the respective
@@ -69,12 +69,12 @@ several times a day in small, easily manageable events. It is done in conjunctio
 with automated testing that prevents any small change from breaking the production version and keeps
 any sone developer's working changes from breaking another developer's code.
 
-![alt text](images/failed_tests.png)
+![](failed_tests.png)
 
 Finally, the request will be merged if it passes the test suite and has no further suggestions
 from the engineer reviewing your code.
 
-![alt text](images/passed_tests.png)
+![](passed_tests.png)
 
 ## Try It Out
 
