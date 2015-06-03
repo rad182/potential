@@ -41,3 +41,11 @@ You don’t need to remember this password, next time you need to unlock your 1P
 You’re now all set. Click on the Vault icon on the top left 1Password menu to get a list of vaults.
 
 ![](vaults.png)
+
+## Security
+
+Follow the following rules of thumb.
+
+* When signing up for a new service, generate a new strong password.
+* For all new services used by Artsy add the password to 1Password Engineering vault.
+* Do not mix personal and Artsy things, we recommend creating a personal "work" vault for all your personal Artsy passwords.
