@@ -47,6 +47,10 @@ In order to get applications like Gravity set up, you’ll need the proper AWS c
 
 We use [AWS](https://artsy.signin.aws.amazon.com/console) for storage (S3), hosting websites (OpsWorks), and analytics (Redshift), among other things.
 
+##### Art world notes
+
+Many of our engineers have art backgrounds or degrees, but of course not all of them. [Here](art.md). are some useful links if you want to read more about the art world, or keep up with the latest news.
+
 ### Artsy Engineering Operations
 
 ##### The Artsy Team
