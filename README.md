@@ -116,11 +116,11 @@ Read about our workflow [here](github/workflow.md).
 
 If you are unfamiliar with Git, check out this [short tutorial](https://try.github.io) on basic git commands (such as `git status`, `git commit`, and `git push`).
 
-If you'd like a more comprehensive review of Git and Github and how we use them, you can look at our Guide to [Git and Github](https://gist.github.com/gristleism/c2812efb2fc4daeee119).
+If you'd like a more comprehensive review of Git and Github and how we use them, you can look at our Guide to [Git and Github](github/git_and_github.md).
 
 ##### Style Guide
 
-For a more indepth guide to our contribution workflow and our style preferences for Git and Pull Requests, you can view our [Style Guide](https://gist.github.com/gristleism/c2812efb2fc4daeee119).
+For a more indepth guide to our contribution workflow and our style preferences for Git and Pull Requests, you can view our [Style Guide](github/style_guide.md).
 
 The Github blog also has a nice article on [writing quality pull requests](https://github.com/blog/1943-how-to-write-the-perfect-pull-request).
 
