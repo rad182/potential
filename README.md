@@ -6,9 +6,9 @@ If you're a new team member, we’re excited to have you! Before you begin this 
 
 Whether you're a seasoned engineer or fresh out of school, take a moment to read [Your First 60 Days at an Engineering Job](http://code.dblock.org/2015/04/23/your-first-60-days-at-an-engineering-job.html).
 
-## Information, etc.
+## Overview
 
-### Administrativa
+### Administrivia
 
 #### Onboarding
 
@@ -30,9 +30,9 @@ Each team does task management slightly differently, but in general we use [Trel
 
 Artsy keeps all of our code on [Github](https://github.com/artsy). Make sure you have a Github account and are part of the Artsy Engineering organization. If you can’t visit [this page](https://github.com/artsy/gravity), then you don’t have the right access. Your mentor can get you sorted out.
 
-You’ll notice that our Github repos are named after physics terms. Ask dB. if you want to know why.
+You’ll notice that our Github repos are named after physics terms. Ask dB if you want to know why.
 
-See the [engineering projects map](https://trello.com/b/VLlTIM7l/artsy-engineering-projects-map) for an in-depth look at our (many) repos and who owns them. It can be a bit overwhelming, so here’s a breakdown of a few important ones:
+See the [engineering projects map](https://trello.com/b/VLlTIM7l/artsy-engineering-projects-map) for an in-depth look at our (many) repos and who owns them. It can be a bit overwhelming, so here is a breakdown of a few important ones:
 
 * [Gravity](https://github.com/artsy/gravity): Artsy’s API
 * [Force](https://github.com/artsy/force): Artsy desktop website (www.artsy.net)
@@ -43,7 +43,7 @@ See the [engineering projects map](https://trello.com/b/VLlTIM7l/artsy-engineeri
 
 ##### AWS
 
-In order to get things like Gravity set up, you’ll need the proper AWS credentials. Ask your mentor to give these to you as well.
+In order to get applications like Gravity set up, you’ll need the proper AWS credentials. Ask your mentor to give these to you as well.
 
 We use [AWS](https://artsy.signin.aws.amazon.com/console) for storage (S3), hosting websites (OpsWorks), and analytics (Redshift), among other things.
 
@@ -53,7 +53,7 @@ We use [AWS](https://artsy.signin.aws.amazon.com/console) for storage (S3), host
 
 See [Carter’s email from the fall](https://groups.google.com/a/artsymail.com/forum/?hl=en#!searchin/team/update$20on$20product/team/YxDV2RrK56E/I3TbkjAhj1gJ) on how our product teams are structured.
 
-Artsy engineering is broken up into four major teams:
+Artsy engineering is broken into four major teams:
 
 * Platform
     - Team lead: Joey
@@ -75,7 +75,7 @@ We have an engineering team-wide standup on *Mondays at 2 p.m.* where we give a 
 
 ##### Open Source Culture + Projects
 
-At Artsy, we <3 open source and encourage you to become part of the community. Here is a [list of some open source technologies](http://artsy.github.io/open-source/) we are currently using.
+At Artsy, we <3 open source and encourage you to become part of the community. Here is a [list of some open source technologies](http://artsy.github.io/open-source/) we currently use.
 
 Read dB’s blog post on [Becoming Open Source by Default](http://code.dblock.org/2015/02/09/becoming-open-source-by-default.html).
 
@@ -85,7 +85,7 @@ Orta also wrote a blog post on the [mechanics behind open-sourcing Eigen](http:/
 
 ##### The Artsy Stack
 
-This blog post by dB. explains [our stack, circa 2015](http://artsy.github.io/blog/2015/03/23/artsy-technology-stack-2015/).
+This blog post by dB explains [our stack, circa 2015](http://artsy.github.io/blog/2015/03/23/artsy-technology-stack-2015/).
 
 ## Setting up your Dev Environment
 
@@ -103,15 +103,16 @@ Once you have Package Manager installed, packages can be installed by following 
 
 If you do use Sublime, here are some plugins you might want to get you started:
 
-* [git](https://packagecontrol.io/packages/Git)
-* [git gutter](https://github.com/jisaacks/GitGutter)
-* [Markdown preview](https://github.com/revolunet/sublimetext-markdown-preview)
+* [Git](https://packagecontrol.io/packages/Git)
+* [GitGutter](https://github.com/jisaacks/GitGutter)
+* [GitHubinator](https://packagecontrol.io/packages/GitHubinator)
+* [Markdown preview](https://github.com/revolunet/sublimetext-markdown-preview) or [OmniMarkupPreviewer](https://packagecontrol.io/packages/OmniMarkupPreviewer)
 
 ### Making Contributions
 
 As all of our code is housed on Github, we make contributions through [pull requests](http://artsy.github.io/blog/2012/01/29/how-art-dot-sy-uses-github-to-build-art-dot-sy/).
 
-Read about how our workflow works [here](github/workflow.md).
+Read about our workflow [here](github/workflow.md).
 
 If you are unfamiliar with Git, check out this [short tutorial](https://try.github.io) on basic git commands (such as `git status`, `git commit`, and `git push`).
 
