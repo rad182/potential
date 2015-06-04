@@ -39,6 +39,7 @@
 * [NY Art Beat](http://www.nyartbeat.com/)
 * [e-flux](http://www.e-flux.com/)
 * [Filterizer](http://www.filterizer.com/) - created by team member [Barry](https://github.com/bhoggard)
+* [WAGMAG](http://www.wagmag.org/)
 * [zingrecsNY](http://www.zingmagazine.com/drupal/zingrecsNY)
 
 ### Podcasts
@@ -47,6 +48,7 @@
 
 ### Apps
 
+* [Artsy](https://iphone.artsy.net/)
 * [See Saw Map](https://itunes.apple.com/us/app/see-saw-map/id791643418?mt=8)
 
 ### Miscellaneous
