@@ -30,7 +30,7 @@ Each team does task management slightly differently, but in general we use [Trel
 
 Artsy keeps all of our code on [Github](https://github.com/artsy). Make sure you have a Github account and are part of the Artsy Engineering organization. If you can’t visit [this page](https://github.com/artsy/gravity), then you don’t have the right access. Your mentor can get you sorted out.
 
-You’ll notice that our Github repos are named after physics terms. Ask dB if you want to know why.
+You’ll notice that our Github repos are named after physics terms. Ask dB. if you want to know why.
 
 See the [engineering projects map](https://trello.com/b/VLlTIM7l/artsy-engineering-projects-map) for an in-depth look at our (many) repos and who owns them. It can be a bit overwhelming, so here is a breakdown of a few important ones:
 
@@ -81,7 +81,7 @@ We have an engineering team-wide standup on *Mondays at 2 p.m.* where we give a 
 
 At Artsy, we <3 open source and encourage you to become part of the community. Here is a [list of some open source technologies](http://artsy.github.io/open-source/) we currently use.
 
-Read dB’s blog post on [Becoming Open Source by Default](http://code.dblock.org/2015/02/09/becoming-open-source-by-default.html).
+Read dB.’s blog post on [Becoming Open Source by Default](http://code.dblock.org/2015/02/09/becoming-open-source-by-default.html).
 
 Read this [article by the mobile team](http://www.objc.io/issue-22/artsy.html) on the culture of open source at Artsy and their reasons behind open-sourcing our [mobile app](https://github.com/artsy/eigen).
 
@@ -89,7 +89,7 @@ Orta also wrote a blog post on the [mechanics behind open-sourcing Eigen](http:/
 
 ##### The Artsy Stack
 
-This blog post by dB explains [our stack, circa 2015](http://artsy.github.io/blog/2015/03/23/artsy-technology-stack-2015/).
+This blog post by dB. explains [our stack, circa 2015](http://artsy.github.io/blog/2015/03/23/artsy-technology-stack-2015/).
 
 ## Setting up your Dev Environment
 
