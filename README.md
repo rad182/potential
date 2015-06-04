@@ -49,7 +49,7 @@ We use [AWS](https://artsy.signin.aws.amazon.com/console) for storage (S3), host
 
 ##### Art world notes
 
-Many of our engineers have art backgrounds or degrees, but of course not all of them. [Here](art.md). are some useful links if you want to read more about the art world, or keep up with the latest news.
+Many of our engineers have art backgrounds or degrees, but of course not all of them. [Here](art/resources.md) are some useful links if you want to read more about the art world, or keep up with the latest news.
 
 ### Artsy Engineering Operations
 

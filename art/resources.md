@@ -1,7 +1,8 @@
 ## Art links
 
-### Other online art sites
+### Other online art/design sites
 
+* [1stdibs](https://www.1stdibs.com/)
 * [artnet](http://www.artnet.com/)
 * [Artspace](http://www.artspace.com/)
 * [Paddle8](https://paddle8.com/)
@@ -20,9 +21,12 @@
 * [Bomb](http://bombmagazine.org/) - especially artist interviews
 * [Brooklyn Rail](http://www.brooklynrail.org/)
 * [Carolina Miranda / LA Times](http://www.latimes.com/entertainment/arts/miranda/)
+* [Contemporary Art Daily](http://www.contemporaryartdaily.com/)
 * [East of Borneo](http://www.eastofborneo.org/)
+* [Frieze](http://www.frieze.com/magazine/)
 * [greg.org](http://greg.org/)
 * [Hyperallergic](http://hyperallergic.com/)
+* [Mousse](http://moussemagazine.it/)
 * [New York Times Art & Design](http://www.nytimes.com/pages/arts/design/index.html)
 * [Rhizome](http://rhizome.org/)
 * [Two Coats of Paint](http://www.twocoatsofpaint.com/)
@@ -35,6 +39,7 @@
 * [NY Art Beat](http://www.nyartbeat.com/)
 * [e-flux](http://www.e-flux.com/)
 * [Filterizer](http://www.filterizer.com/) - created by team member [Barry](https://github.com/bhoggard)
+* [zingrecsNY](http://www.zingmagazine.com/drupal/zingrecsNY)
 
 ### Podcasts
 * [Bad at Sports](http://badatsports.com/)
@@ -51,6 +56,7 @@
 * Two part interview with collector Alain Servais: [1](http://www.artspace.com/magazine/interviews_features/alain-servais-interview), [2](http://www.artspace.com/magazine/interviews_features/alain-servais-interview-part-2)
 * Articles by art dealer [Edward Winkleman](https://twitter.com/WinklemanNYC)
     * [The Myth of Disruptive Innovation in Online Art Selling Channels](http://www.edwardwinkleman.com/2015/05/the-myth-of-innovative-disruption-in.html)
+    * [10 Reasons You Should Buy Art](http://www.edwardwinkleman.com/2015/02/10-reasons-you-should-buy-art.html)
     * [The Logic Behind the 50/50 Split](http://www.edwardwinkleman.com/2007/06/logic-behind-5050-split.html)
     * [An Interview with Elizabeth Dee about the Contemporary Art Gallery Model, Part I](http://www.edwardwinkleman.com/2013/06/an-interview-with-elizabeth-dee-about.html)
     * [A Conversation with Elizabeth Dee on the Contemporary Art Gallery Model, Part II](http://www.edwardwinkleman.com/2013/06/a-conversation-with-elizabeth-dee-on.html)
