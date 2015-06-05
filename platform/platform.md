@@ -25,7 +25,7 @@ Current members of the Platform Team are: [Joey](https://github.com/joeyaghion),
     * Work that’s well-understood starts in the “Next” column, from which it’s pulled into “Now,” deployed to “Shipped/Monitoring,” then finally “Delivered” when it’s confirmed to work as expected in production.
     * We sometimes track less well-understood or larger projects in the “Ideas” column
 * Chat in [#platform-humans](https://artsy.slack.com/messages/platform-humans/)
-* Github notifications, etc. in [#platform-machines](https://artsy.slack.com/messages/platform-machines/)
+* GitHub notifications, etc. in [#platform-machines](https://artsy.slack.com/messages/platform-machines/)
 
 ### Our Apps
 

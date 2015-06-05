@@ -26,11 +26,11 @@ Download and install Slack, see [this guide](slack/slack.md) for details.
 
 Each team does task management slightly differently, but in general we use [Trello](https://trello.com) for high-level tasks and github issues for project-level tasks. Ask your mentor to get you signed up and subscribed to the relevant Trello boards.
 
-##### Github
+##### GitHub
 
-Artsy keeps all of our code on [Github](https://github.com/artsy). Make sure you have a Github account and are part of the Artsy Engineering organization. If you can’t visit [this page](https://github.com/artsy/gravity), then you don’t have the right access. Your mentor can get you sorted out.
+Artsy keeps all of our code on [GitHub](https://github.com/artsy). Make sure you have a GitHub account and are part of the Artsy Engineering organization. If you can’t visit [this page](https://github.com/artsy/gravity), then you don’t have the right access. Your mentor can get you sorted out.
 
-You’ll notice that our Github repos are named after physics terms. Ask dB. if you want to know why.
+You’ll notice that our GitHub repos are named after physics terms. Ask dB. if you want to know why.
 
 See the [engineering projects map](https://trello.com/b/VLlTIM7l/artsy-engineering-projects-map) for an in-depth look at our (many) repos and who owns them. It can be a bit overwhelming, so here is a breakdown of a few important ones:
 
@@ -60,17 +60,18 @@ See [Carter’s email from the fall](https://groups.google.com/a/artsymail.com/f
 Artsy engineering is broken into four major teams:
 
 * Platform
-    - Team lead: Joey
+    - Team lead: [Joey](https://github.com/joeyAghion) [joey.aghion.com](http://joey.aghion.com)
     - Slack: [#platform-humans](https://artsy.slack.com/messages/platform-humans)
     - [Platform Team Onboarding](platform/platform.md)
 * Mobile
-    - Team lead: Orta
+    - Team lead: [Orta](https://github.com/orta) [orta.io](http://orta.io)
     - Slack: [#mobile](https://artsy.slack.com/messages/mobile)
+    - [Mobile Team Onboarding](mobile/mobile.md)
 * Web
-    - Team lead: Craig
+    - Team lead: [Craig](https://github.com/craigspaeth) [craigspaeth.com](http://craigspaeth.com)
     - Slack: [#web](https://artsy.slack.com/messages/web)
 * Partner Engineering
-    - Team lead: Dylan
+    - Team lead: [Dylan](https://github.com/dylanfareed) [dylanfareed.com](http://dylanfareed.com/)
     - Slack: [#pe](https://artsy.slack.com/messages/pe)
 
 ##### Engineering Team Standup
@@ -114,19 +115,19 @@ If you do use Sublime, here are some plugins you might want to get you started:
 
 ### Making Contributions
 
-As all of our code is housed on Github, we make contributions through [pull requests](http://artsy.github.io/blog/2012/01/29/how-art-dot-sy-uses-github-to-build-art-dot-sy/).
+As all of our code is housed on GitHub, we make contributions through [pull requests](http://artsy.github.io/blog/2012/01/29/how-art-dot-sy-uses-github-to-build-art-dot-sy/).
 
 Read about our workflow [here](github/workflow.md).
 
 If you are unfamiliar with Git, check out this [short tutorial](https://try.github.io) on basic git commands (such as `git status`, `git commit`, and `git push`).
 
-If you'd like a more comprehensive review of Git and Github and how we use them, you can look at our Guide to [Git and Github](github/git_and_github.md).
+If you'd like a more comprehensive review of Git and GitHub and how we use them, you can look at our Guide to [Git and GitHub](github/git_and_github.md).
 
 ##### Style Guide
 
 For a more indepth guide to our contribution workflow and our style preferences for Git and Pull Requests, you can view our [Style Guide](github/style_guide.md).
 
-The Github blog also has a nice article on [writing quality pull requests](https://github.com/blog/1943-how-to-write-the-perfect-pull-request).
+The GitHub blog also has a nice article on [writing quality pull requests](https://github.com/blog/1943-how-to-write-the-perfect-pull-request).
 
 ### Deploying Software
 

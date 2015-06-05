@@ -8,7 +8,7 @@ suggestions pulled from popular practices among Artsy developers, the community 
 #### Branches
 
 * Choose short and descriptive names.
-* Use identifiers from Github ( issue numbers )
+* Use identifiers from GitHub ( issue numbers )
 * Use dashes to separate words
 
 ```
@@ -44,8 +44,8 @@ e45ca5p3 Writing Tests
 some level of interaction, try to include a gif of it being used - [Licecap](http://www.cockos.com/licecap/)
 is excellent for quickly recording gifs of your screen.
 * You may notice that when you run `git diff` you'll see '[No Newline at End of File](https://robots.thoughtbot.com/no-newline-at-end-of-file).' Maintaing new lines at the end of files is not vital but will help reduce noise on
-Github.
-* The Github blog has a nice article on [writing quality pull requests](https://github.com/blog/1943-how-to-write-the-perfect-pull-request).
+GitHub.
+* The GitHub blog has a nice article on [writing quality pull requests](https://github.com/blog/1943-how-to-write-the-perfect-pull-request).
 
 
 > If you use sublime text, you can add  `"ensure_newline_at_eof_on_save": true` to your user configruation

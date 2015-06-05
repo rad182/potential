@@ -1,4 +1,4 @@
-## What is Git/Github?
+## What is Git/GitHub?
 
 Git is a Distributed Version Control System, in that each client creates a complete mirror of the
 working repository. It records any changes to a set of files that the client makes and allows you to
@@ -8,7 +8,7 @@ For a more comprehensive description of what is unique and preferable about Git 
 Version Control Systems, a thorough overview of its commands and a brief summary of its history,
 see the [Git Manual Pages](http://git-scm.com/book/en/v2/Getting-Started-About-Version-Control).
 
-Github is an online repository for Git projects which we use to host Artsy's codebases and allow
+GitHub is an online repository for Git projects which we use to host Artsy's codebases and allow
 collaboration between a group of developers working on a single project.
 
 If you are unfamiliar with Git, check out this [short tutorial](https://try.github.io) on basic git commands (such as `git status`, `git commit`, and `git push`). Otherwise, this document will provide a quick refresher on the majority
@@ -23,12 +23,12 @@ of git tools and commands you'll need to use, and perhaps introduce you to some 
 To start working on any project at Artsy, you're going to need to 'fork' the repository ( create a
 personal copy of the codebase ) and clone it onto your development environment so you can work on it
 locally. Finally, you will want to keep your local repository synced with the origin repository by
-setting it as the 'upstream' repository. We recommend Github's own guide to [Forking a Repo](https://help.github.com/articles/fork-a-repo/).
+setting it as the 'upstream' repository. We recommend GitHub's own guide to [Forking a Repo](https://help.github.com/articles/fork-a-repo/).
 
 ####Pull
 
 Now that you have your environment set up locally, you'll want to make sure your code is in sync
-with the most current version on Github. To get the most recent updates from the upstream repository and
+with the most current version on GitHub. To get the most recent updates from the upstream repository and
 merge them into your current branch, we can use git's `pull`.
 
 ```
