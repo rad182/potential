@@ -30,7 +30,7 @@ Current members of the Mobile Team can be found on the [Artsy/Mobile](https://gi
 * The Mobile team specific [calendar](https://www.google.com/calendar/embed?src=artsymail.com_bke4sctkn8o072rjgtcsrrun3s%40group.calendar.google.com&ctz=America/New_York) is used for Out Of Office / Events.
 * Chat in [#mobile](https://artsy.slack.com/messages/mobile/)
 * Each app has its own focused channel in Slack [#eigen](https://artsy.slack.com/messages/eigen/), [#folio](https://artsy.slack.com/messages/folio) and [#eidolon](https://artsy.slack.com/messages/eidolon/).
-* Github notifications, etc. in [#mobile-notifications](https://artsy.slack.com/messages/mobile-notifications/).
+* GitHub notifications, etc. in [#mobile-notifications](https://artsy.slack.com/messages/mobile-notifications/).
 
 ### Our Apps
 
@@ -44,15 +44,15 @@ Current members of the Mobile Team can be found on the [Artsy/Mobile](https://gi
 
 #### Objective-C
 
-Swift is nice, but not production ready.
+Swift is nice, but not ready for mixing with our larger Objective-C code bases.
 
 #### CocoaPods + Bundler
 
-We rely on dependency managers, and plugins within them. If this is new to you, we recommend reading the [Podfiles](https://guides.cocoapods.org/) and [Gemfiles](https://guides.cocoapods.org/using/a-gemfile.html) guides on CocoaPods.
+We rely on dependency managers, and plugins for them. If this is new to you, we recommend reading the [Podfiles](https://guides.cocoapods.org/) and [Gemfiles](https://guides.cocoapods.org/using/a-gemfile.html) guides on CocoaPods.
 
 #### Testing
 
-We test our apps to ensure that our bevior is what we expect. We use a collection of [FBSnapshot](http://www.objc.io/issue-15/snapshot-testing.html) Tests and Unit Tests via [Specta/Expecta](https://github.com/specta/specta).
+We test our apps to ensure that our behavior is what we expect. We use a collection of [FBSnapshot](http://www.objc.io/issue-15/snapshot-testing.html) Tests and Unit Tests via [Specta/Expecta](https://github.com/specta/specta) or [Quick/Nimble](https://github.com/Quick/Quick/).
 
 #### Eigen
 
@@ -66,4 +66,4 @@ We test our apps to ensure that our bevior is what we expect. We use a collectio
 
 #### Eidolon
 
-* **Essentials:** Swift, [ReactiveCocoa](http://reactivecocoa.io), Storyboards
+* **Essentials:** Swift, [ReactiveCocoa](http://reactivecocoa.io), [Moya](https://github.com/ashfurrow/moya/), Storyboards

@@ -1,9 +1,9 @@
-### Github and Merging
+### GitHub and Merging
 
 ##### Integration-Manager Work flow
 
 Our work flow for working on code and having it added to our 'main codebase' is a
-variation on what is known as the '[Integration-Manager Workflow](http://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows#Integration-Manager-Workflow),' except we use Github's web tools instead of email.
+variation on what is known as the '[Integration-Manager Workflow](http://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows#Integration-Manager-Workflow),' except we use GitHub's web tools instead of email.
 
 It generally would work as follows:
 
@@ -16,7 +16,7 @@ It generally would work as follows:
 
 #### Example Workflow
 
-A typical workflow at Artsy using Git and Github to implement a feature and submit a Pull Request to
+A typical workflow at Artsy using Git and GitHub to implement a feature and submit a Pull Request to
 a repository:
 
 ````
@@ -44,15 +44,15 @@ git rebase master -i
 git push origin 2673-Hide-Gallery-Phone-Numbers
 ````
 
-Now, on Github, if you pushed the branch if you check the Github repository
+Now, on GitHub, if you pushed the branch if you check the GitHub repository
 you should see the option to 'Compare & Pull Request.' You can look over the status of your branch in
-relation to the repository on Github ( commits, files changed and their differences related to the current
+relation to the repository on GitHub ( commits, files changed and their differences related to the current
 repository, etc... ).
 
 ![](compare_and_pull_request.png)
 
 To submit your code for review, we title the Pull Request by describing what the Pull Request is
-changing in the code, and @ another engineers Github account to designate it for their review.
+changing in the code, and @ another engineers GitHub account to designate it for their review.
 
 Try to give a brief description of the change, how it was implemented, and if it's closing any open
 issues. Example:
@@ -60,7 +60,7 @@ issues. Example:
 ![](pr_example.png)
 
 This means that @artsyengineer will look over our code and comment on any code that will need to be changed
-before the branch is appropriate for merging. As well, Github will start running the respective
+before the branch is appropriate for merging. As well, GitHub will start running the respective
 repositories Continuous Integration test suites against your new code and tell you if causes any
 tests on the server to fail, in which case further code revisions will also be necessary.
 
