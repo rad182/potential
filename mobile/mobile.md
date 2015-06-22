@@ -31,6 +31,7 @@ Current members of the Mobile Team can be found on the [Artsy/Mobile](https://gi
 * Chat in [#mobile](https://artsy.slack.com/messages/mobile/)
 * Each app has its own focused channel in Slack [#eigen](https://artsy.slack.com/messages/eigen/), [#folio](https://artsy.slack.com/messages/folio) and [#eidolon](https://artsy.slack.com/messages/eidolon/).
 * GitHub notifications, etc. in [#mobile-notifications](https://artsy.slack.com/messages/mobile-notifications/).
+* Certificates and keys for signing apps for development/distribution are in the Engineering 1Password vault. The certs/keys are stored as a developer identity that can be imported into Xcode; the entry is named "Apple iOS Mobile Developer Identity". Make sure to install from there instead of letting Xcode revoke the existing keys. 
 
 ### Our Apps
 
