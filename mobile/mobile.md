@@ -31,7 +31,9 @@ Current members of the Mobile Team can be found on the [Artsy/Mobile](https://gi
 * Chat in [#mobile](https://artsy.slack.com/messages/mobile/)
 * Each app has its own focused channel in Slack [#eigen](https://artsy.slack.com/messages/eigen/), [#folio](https://artsy.slack.com/messages/folio) and [#eidolon](https://artsy.slack.com/messages/eidolon/).
 * GitHub notifications, etc. in [#mobile-notifications](https://artsy.slack.com/messages/mobile-notifications/).
-* Certificates and keys for signing apps for development/distribution are in the Engineering 1Password vault. The certs/keys are stored as a developer identity that can be imported into Xcode; the entry is named "Apple iOS Mobile Developer Identity". Make sure to install from there instead of letting Xcode revoke the existing keys. 
+* Certificates and keys for signing apps for development/distribution are in the Engineering 1Password vault. The certs/keys are stored as a developer identity that can be imported into Xcode; the entry is named "Apple iOS Mobile Developer Identity". Make sure to install from there instead of letting Xcode revoke the existing keys.
+
+  For more information related to choosing the right certificate and profile for development builds (that include Push Notification support), see [this document](https://github.com/artsy/eigen/blob/master/docs/push_notifications.md). In case you need to manually install the cright certificate, it is called “Eigen Developer Identity” in the Engineering 1Password vault.
 
 ### Our Apps
 
