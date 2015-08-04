@@ -1,4 +1,4 @@
-# Platform Team Playbook
+# Platform Practice Playbook
 
 * [FAQ](platform_faq.md)
 
@@ -10,9 +10,9 @@
 * Robust internal tools and infrastructure
 * Platform for future growth
 
-### Who is on the Platform Team?
+### Who is on the Platform Practice?
 
-Current members of the Platform Team are: [Joey](https://github.com/joeyaghion), [Matt](https://github.com/mzikherman), [Will](https://github.com/wrgoldstein), and [Sarah](https://github.com/sweir27).
+Current members of the Platform Practice are: [Joey](https://github.com/joeyaghion), [Matt](https://github.com/mzikherman), [Will](https://github.com/wrgoldstein), and [Sarah](https://github.com/sweir27).
 
 ### Logistics
 
@@ -37,7 +37,7 @@ Current members of the Platform Team are: [Joey](https://github.com/joeyaghion),
 * [Reflection](https://github.com/artsy/reflection): page pre-rendering for SEO
 * [Lattice](https://github.com/artsy/lattice): custom report generator
 * [Helix](https://github.com/artsy/helix): dedicated app for genoming artworks/artists
-* See the [engineering projects map](https://trello.com/b/VLlTIM7l/artsy-engineering-projects-map) for a comprehensive list of Platform Team apps.
+* See the [engineering projects map](https://trello.com/b/VLlTIM7l/artsy-engineering-projects-map) for a comprehensive list of Platform Practice apps.
 
 ### Our Dashboards
 
@@ -53,7 +53,7 @@ Current members of the Platform Team are: [Joey](https://github.com/joeyaghion),
 
 #### Rails
 
-Most of the Platform Team's apps are built on Rails. If you are unfamiliar with Rails, take some time to go through a tutorial, such as [Michael Hartl's Rails Tutorial](https://www.railstutorial.org/book).
+Most of the Platform Practice's apps are built on Rails. If you are unfamiliar with Rails, take some time to go through a tutorial, such as [Michael Hartl's Rails Tutorial](https://www.railstutorial.org/book).
 
 #### Backbone
 

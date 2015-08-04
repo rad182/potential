@@ -1,4 +1,4 @@
-# Platform Team FAQ
+# Platform Practice FAQ
 
 How to...
 
