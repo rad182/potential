@@ -62,11 +62,11 @@ Artsy engineering is broken into four major teams:
 * Platform
     - Team lead: [Joey](https://github.com/joeyAghion) [joey.aghion.com](http://joey.aghion.com)
     - Slack: [#platform-humans](https://artsy.slack.com/messages/platform-humans)
-    - [Platform Team Onboarding](platform/platform.md)
+    - [Platform Practice Onboarding](platform/platform.md)
 * Mobile
     - Team lead: [Orta](https://github.com/orta) [orta.io](http://orta.io)
     - Slack: [#mobile](https://artsy.slack.com/messages/mobile)
-    - [Mobile Team Onboarding](mobile/mobile.md)
+    - [Mobile Practice Onboarding](mobile/mobile.md)
 * Web
     - Team lead: [Craig](https://github.com/craigspaeth) [craigspaeth.com](http://craigspaeth.com)
     - Slack: [#web](https://artsy.slack.com/messages/web)

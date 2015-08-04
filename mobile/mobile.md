@@ -1,4 +1,4 @@
-# Mobile Team Playbook
+# Mobile Practice Playbook
 
 ## Team Information
 
@@ -11,9 +11,9 @@ We collectively created an article for the magazine [objc.io on Artsy Mobiles's 
 * Create delightful, focused, mobile native experiences.
 * Aggressively Open by Default.
 
-### Who is on the Mobile Team?
+### Who is on the Mobile Practice?
 
-Current members of the Mobile Team can be found on the [Artsy/Mobile](https://github.com/artsy/mobile/) GitHub repo.
+Current members of the Mobile Practice can be found on the [Artsy/Mobile](https://github.com/artsy/mobile/) GitHub repo.
 
 ### Logistics
 
@@ -39,7 +39,7 @@ Current members of the Mobile Team can be found on the [Artsy/Mobile](https://gi
 * [Energy](https://github.com/artsy/energy): Artsy Partner's Portfolio App.
 * [Eidolon](https://github.com/artsy/eidolon): Kiosk App for Auctions.
 
-* See the [engineering projects map](https://trello.com/b/VLlTIM7l/artsy-engineering-projects-map) for a comprehensive list of Mobile Team libraries.
+* See the [engineering projects map](https://trello.com/b/VLlTIM7l/artsy-engineering-projects-map) for a comprehensive list of Mobile Practice libraries.
 
 ### Our Key Technologies
 

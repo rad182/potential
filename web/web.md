@@ -1,36 +1,25 @@
-# Web Team Playbook
+# Web Practice Playbook
 
 ## Team Information
 
 ### Team Goals
 
 * Build and maintain primarily user-facing applications.
-* Support user team goals through web technology.
+* Support product team goals through web technology.
 * Productivity and developer happiness.
 * Open source by default.
 
-### Who is on the Web Team?
+### Who is on the Web Practice?
 
-Current members of the Web Team are: [Craig](https://github.com/craigspaeth), [Damon](https://github.com/dzucconi), [Cab](https://github.com/broskoski), [Kana](https://github.com/kanaabe), [Ian](gristleism) and [James](jtotoole).
+Current members of the Web Practice are: [Craig](https://github.com/craigspaeth), [Damon](https://github.com/dzucconi), [Cab](https://github.com/broskoski), [Kana](https://github.com/kanaabe), and [James](https://github.com/jtotoole), [Christina](https://github.com/xtina-starr), [Chung-Yi](https://github.com/starsirius), and [Laura](https://github.com/1aurabrown).
 
 ### Logistics
 
-* Bi-weekly stand-up on Tuesday / Thursday 2:00pm (NYC time)
+* Weekly stand-up on Thursday 2:00pm (NYC time)
   * What are you working on or need help with?
-  * Explain any new features or requests.
-
-* User team meetings
-  * Product team-wide standup and meeting dicussing product progress at a high level.
-  * User team check in on Weds. at 3pm.
-  * User team prioritization meeting beginning of a new sprint at 10:30am.
-
-* Work is done through GitHub issues within sprint cycles.
-  * Sprints restart every 3 weeks.
-  * Issues are created and linked to in the User Team Deck.
-  * [The User Team Deck](https://docs.google.com/presentation/d/18ep3sYGgpIibLFuTn_ANuZbqwaOT1NfuND0BkA3iO8A/edit#slide=id.gafcf7b0f8_3_489) lists each product priority in order of importance under "Sprint Priorities".
-
+  * Explain any web-wide techinical concerns for the week.
 * General Chat in [#web](https://artsy.slack.com/messages/web/)
-* Artsy Writer support in [#writer](https://artsy.slack.com/messages/writer/)
+* Artsy Writer support in [#publishing-support](https://artsy.slack.com/messages/publishing-support/)
 
 ### Our Apps
 
@@ -45,7 +34,7 @@ Current members of the Web Team are: [Craig](https://github.com/craigspaeth), [D
 * [2014.artsy.net](https://github.com/artsy/2014.artsy.net) 2014 Year in Review.
 * [artsy-2013](https://github.com/artsy/artsy-2013) 2013 Year in Review.
 
-* See the [engineering projects map](https://trello.com/b/VLlTIM7l/artsy-engineering-projects-map) for a comprehensive list of Mobile Team libraries.
+* See the [engineering projects map](https://trello.com/b/VLlTIM7l/artsy-engineering-projects-map) for a comprehensive list of Mobile Practice libraries.
 
 ### Our Key Technologies
 
