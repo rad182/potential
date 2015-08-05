@@ -31,6 +31,13 @@
 * [Rhizome](http://rhizome.org/)
 * [Two Coats of Paint](http://www.twocoatsofpaint.com/)
 
+### Books
+
+* [The $12 Million Stuffed Shark: The Curious Economics of Contemporary Art](http://www.amazon.com/The-Million-Stuffed-Shark-Contemporary/dp/0230620590)
+* [The Supermodel and the Brillo Box: Back Stories and Peculiar Economics from the World of Contemporary Art](http://www.amazon.com/The-Supermodel-Brillo-Box-Contemporary/dp/1137279087)
+
+You'll find many books in the 27th floor library, too.
+
 ### Art Calendars
 
 * [Artsy shows](https://www.artsy.net/shows)
@@ -43,6 +50,7 @@
 * [zingrecsNY](http://www.zingmagazine.com/drupal/zingrecsNY)
 
 ### Podcasts
+
 * [Bad at Sports](http://badatsports.com/)
 * [Modern Art Notes Podcast](http://manpodcast.com/)
 
@@ -66,5 +74,4 @@
     * [The Not So Special Hundred-Million-Dollar Giacometti](http://www.newyorker.com/business/currency/the-hundred-million-dollar-giacometti)
     * [A guide to the market oligopoly system](http://blogs.reuters.com/felix-salmon/2010/12/28/a-guide-to-the-market-oligopoly-system/)
     * [Jeff Koons: a master innovator turning money into art](http://www.theguardian.com/artanddesign/2014/jul/03/jeff-koons-master-innovator-whitney-money-art)
-
 
