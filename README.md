@@ -53,26 +53,24 @@ Many of our engineers have art backgrounds or degrees, but of course not all of 
 
 ### Artsy Engineering Operations
 
-##### The Artsy Team
+##### The Artsy Product & Engineering Teams
 
-See [Carter’s email from the fall](https://groups.google.com/a/artsymail.com/forum/?hl=en#!searchin/team/update$20on$20product/team/YxDV2RrK56E/I3TbkjAhj1gJ) on how our product teams are structured.
+Artsy product engineering is organized in product teams. Each team has a _purpose_, eg. _"Help galleries get the most out of Artsy and run their business better"_, and Key Performance Indicators, or KPIs, eg. _"The number of artworks uploaded by partners."_ Each team has members with different responsibilities, including a _Product Lead_, a _Project Manager_, a _Designer_, an _Engineering Lead_ or an _Engineer_, depending on size. Sometimes the same person wears multiple hats.
 
-Artsy engineering is broken into four major teams:
+Engineers typically work on a product team and belong to an _Engineering Practice_.
 
-* Platform
+* Platform Practice
     - Team lead: [Joey](https://github.com/joeyAghion) [joey.aghion.com](http://joey.aghion.com)
     - Slack: [#platform-humans](https://artsy.slack.com/messages/platform-humans)
-    - [Platform Practice Onboarding](platform/platform.md)
-* Mobile
+    - [Platform Practice Playbook](platform/platform.md)
+* Mobile Practice
     - Team lead: [Orta](https://github.com/orta) [orta.io](http://orta.io)
     - Slack: [#mobile](https://artsy.slack.com/messages/mobile)
-    - [Mobile Practice Onboarding](mobile/mobile.md)
-* Web
+    - [Mobile Practice Playbook](mobile/mobile.md)
+* Web Practice
     - Team lead: [Craig](https://github.com/craigspaeth) [craigspaeth.com](http://craigspaeth.com)
     - Slack: [#web](https://artsy.slack.com/messages/web)
-* Partner Engineering
-    - Team lead: [Dylan](https://github.com/dylanfareed) [dylanfareed.com](http://dylanfareed.com/)
-    - Slack: [#pe](https://artsy.slack.com/messages/pe)
+    - [Web Practice Playbook](web/web.md)
 
 ##### Engineering Team Standup
 
