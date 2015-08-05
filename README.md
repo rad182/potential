@@ -57,6 +57,8 @@ Many of our engineers have art backgrounds or degrees, but of course not all of 
 
 Artsy product engineering is organized in product teams. Each team has a _purpose_, eg. _"Help galleries get the most out of Artsy and run their business better"_, and Key Performance Indicators, or KPIs, eg. _"The number of artworks uploaded by partners."_ Each team has members with different responsibilities, including a _Product Lead_, a _Project Manager_, a _Designer_, an _Engineering Lead_ or an _Engineer_, depending on size. Sometimes the same person wears multiple hats.
 
+You can see this organization [live in the Product and Engineering Teams Trello](https://trello.com/b/Ws7rgCUU/product-and-engineering-teams).
+
 Engineers typically work on a product team and belong to an _Engineering Practice_.
 
 * Platform Practice
