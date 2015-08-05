@@ -30,7 +30,11 @@ Each team does task management slightly differently, but in general we use [Trel
 
 Artsy keeps all of our code on [GitHub](https://github.com/artsy). Make sure you have a GitHub account and are part of the Artsy Engineering organization. If you can’t visit [this page](https://github.com/artsy/gravity), then you don’t have the right access. Your mentor can get you sorted out.
 
-You’ll notice that our GitHub repos are named after physics terms. Ask dB. if you want to know why.
+You’ll notice that our GitHub repos are named after physics terms. The story is that our first project, gravity, was named after [Zachary Coffin's "Temple of Gravity"](http://www.zacharycoffin.com/work/temple-of-gravity) that was installed at Burning Man in 2003. The work weighs 180,000 lbs total and involves walking under 17,000 lbs stones swinging from two apparently insubstantial chains. In 2011 we wanted to build a brand new, rock solid foundation for Artsy platform and chose The Temple of Gravity for its art + science metaphor.
+
+![](images/gravity.jpg "Gravity")
+
+_"Gravity cannot be held responsible for people falling in love.", - Einstein_
 
 See the [engineering projects map](https://trello.com/b/VLlTIM7l/artsy-engineering-projects-map) for an in-depth look at our (many) repos and who owns them. It can be a bit overwhelming, so here is a breakdown of a few important ones:
 
