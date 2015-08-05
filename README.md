@@ -2,7 +2,9 @@
 
 Welcome to Artsy! If you're not an Artsy team member we hope you'll find these docs useful and maybe check out our [jobs](https://www.artsy.net/jobs) or just send us a resume to [jobs@artsy.net](mailto:jobs@artsy.net).
 
-If you're a new team member, we’re excited to have you! Before you begin this guide, keep in mind that it is a work in progress and your first PR at Artsy could be fixing a typo/adding more information to this doc. This will guide you through some basic readings/tasks to get you started engineering @Artsy. If you have questions feel free to reach out to your mentor or anyone else on the dev team.
+If you're a new team member, we’re excited to have you!
+
+Before you begin this guide, keep in mind that it is a work in progress and your first PR at Artsy could be fixing a typo/adding more information to [this doc](https://github.com/artsy/potential/blob/master/README.md). This will guide you through some basic readings/tasks to get you started engineering @Artsy. If you have questions feel free to reach out to your mentor or anyone else on the dev team. Try the #dev channel on Slack.
 
 Whether you're a seasoned engineer or fresh out of school, take a moment to read [Your First 60 Days at an Engineering Job](http://code.dblock.org/2015/04/23/your-first-60-days-at-an-engineering-job.html).
 
