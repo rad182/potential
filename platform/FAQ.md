@@ -6,7 +6,8 @@ How to...
 Contact any Platform team member
 
 #### Get a read-only data console:
-https://docs.google.com/a/artsymail.com/document/d/1hCTBaynWLnSxgNQEWRTU1nm27KIizQiLgO5b0jHs7hA/edit
+1. Are you sure you can't satisfy your need with existing reports and dashboards?
+2. https://docs.google.com/a/artsymail.com/document/d/1hCTBaynWLnSxgNQEWRTU1nm27KIizQiLgO5b0jHs7hA/edit
 
 #### Add a new AWS user
 1. Navigate to IAM from the AWS dashboard
