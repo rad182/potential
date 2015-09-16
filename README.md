@@ -70,7 +70,7 @@ Engineers typically work on a product team and belong to an _Engineering Practic
 * Platform Practice
     - Team lead: [Joey](https://github.com/joeyAghion) [joey.aghion.com](http://joey.aghion.com)
     - Slack: [#platform-humans](https://artsy.slack.com/messages/platform-humans)
-    - [Platform Practice Playbook](platform/platform.md)
+    - [Platform Practice Overview](platform/README.md)
 * Mobile Practice
     - Team lead: [Orta](https://github.com/orta) [orta.io](http://orta.io)
     - Slack: [#mobile](https://artsy.slack.com/messages/mobile)
@@ -143,7 +143,7 @@ Most of our apps do not automatically deploy once the CI (continuous integration
 
 We don't have a set deployment cycle for our web apps (developing for iOS is a different story...). At Artsy, we value small improvements through pull requests, and incremental deploys. You don't need permission to deploy-- you just have to announce when you plan to deploy something in the relevant slack channel in case someone is intentionally putting it off.
 
-Our API app, Gravity, is hosted on OpsWorks. For more information on why we chose OpsWorks for this app, and *what it all means*, check out Joey's [Introduction to AWS OpsWorks](http://artsy.github.io/blog/2013/08/27/introduction-to-aws-opsworks/) blog post.
+Our API app, Gravity, is hosted on OpsWorks. For more information on why we chose OpsWorks for this app, and *what it all means*, check out our [Introduction to AWS OpsWorks](http://artsy.github.io/blog/2013/08/27/introduction-to-aws-opsworks/) blog post.
 
 ## If You Get Stuck
 

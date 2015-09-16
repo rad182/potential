@@ -1,6 +1,6 @@
 # Platform Practice Playbook
 
-* [FAQ](platform_faq.md)
+* [FAQ](FAQ.md)
 
 ## Team Information
 
@@ -12,11 +12,11 @@
 
 ### Who is on the Platform Practice?
 
-Current members of the Platform Practice are: [Joey](https://github.com/joeyaghion), [Matt](https://github.com/mzikherman), [Will](https://github.com/wrgoldstein), and [Sarah](https://github.com/sweir27).
+Current members of the Platform Practice are: [Joey](https://github.com/joeyaghion), [Barry](https://github.com/bhoggard), [Matt](https://github.com/mzikherman), [Will](https://github.com/wrgoldstein), and [Sarah](https://github.com/sweir27).
 
 ### Logistics
 
-* Daily stand-up is at 11:30 on the [hangout](https://www.artsy.net/platformstandup)
+* Daily stand-up is at 11:30 AM at [https://appear.in/platform](https://appear.in/platform)
     * What are you working on or need help with?
     * Review the [Trello board](https://trello.com/b/2lTTggr8/platform-engineering)
     * Explain any new additions or requests
