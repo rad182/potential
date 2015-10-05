@@ -30,7 +30,7 @@ Contact any Platform team member
 3. Navigate to Time-based in the Instances menu. Under Rails App Server, this page displays all available time-based servers and solid green squares for hours when they’re scheduled to run.
 4. Choose the day you would like to add capacity.
 
-![adding instances UI](images/platform_adding_instances.png)
+![adding instances UI](../images/platform_adding_instances.png)
 
 There are likely already some time-based servers scheduled to run during peak traffic periods (generally corresponding to the business day). Click the corresponding squares (changing them from inactive/gray to active/green) to add capacity during selected hours.
 
