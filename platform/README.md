@@ -16,7 +16,7 @@ Current members of the Platform Practice are: [Joey](https://github.com/joeyaghi
 
 ### Logistics
 
-* Daily stand-up is at 11:30 AM at [https://appear.in/platform](https://appear.in/platform)
+* Daily stand-up is at 11:30 AM in person (at HQ) or at [https://appear.in/platform](https://appear.in/platform)
     * What are you working on or need help with?
     * Review the [Trello board](https://trello.com/b/2lTTggr8/platform-engineering)
     * Explain any new additions or requests
