@@ -1,6 +1,7 @@
-# Platform Practice Playbook
+# Platform Practice Overview
 
 * [FAQ](FAQ.md)
+* [Domain models](DomainModels.md)
 
 ## Team Information
 
