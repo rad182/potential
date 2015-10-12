@@ -18,11 +18,11 @@ You have been onboarded by ops. You have a mentor and a spirit guide. You now kn
 
 ##### 1Password + Dropbox
 
-Download and install Dropbox and 1Password and configure 1Password vaults as described [in this guide](dropbox-1password/dropbox-1password.md).
+Download and install Dropbox and 1Password and configure 1Password vaults as described [in this guide](dropbox-1password/README.md).
 
 ##### Slack
 
-Download and install Slack, see [this guide](slack/slack.md) for details.
+Download and install Slack, see [this guide](slack/README.md) for details.
 
 ##### Trello
 
@@ -55,7 +55,7 @@ We use [AWS](https://artsy.signin.aws.amazon.com/console) for storage (S3), host
 
 ##### Art world notes
 
-Many of our engineers have art backgrounds or degrees, but of course not all of them. [Here](art/resources.md) are some useful links if you want to read more about the art world, or keep up with the latest news.
+Many of our engineers have art backgrounds or degrees, but of course not all of them. [Here](art/README.md) are some useful links if you want to read more about the art world, or keep up with the latest news.
 
 ### Artsy Engineering Operations
 
@@ -74,11 +74,11 @@ Engineers typically work on a product team and belong to an _Engineering Practic
 * Mobile Practice
     - Team lead: [Orta](https://github.com/orta) [orta.io](http://orta.io)
     - Slack: [#mobile](https://artsy.slack.com/messages/mobile)
-    - [Mobile Practice Playbook](mobile/mobile.md)
+    - [Mobile Practice Playbook](mobile/README.md)
 * Web Practice
     - Team lead: [Craig](https://github.com/craigspaeth) [craigspaeth.com](http://craigspaeth.com)
     - Slack: [#web](https://artsy.slack.com/messages/web)
-    - [Web Practice Playbook](web/web.md)
+    - [Web Practice Playbook](web/README.md)
 
 ##### Engineering Team Standup
 
@@ -154,6 +154,8 @@ If you know what team could potentially help you, browse the channels in Slack t
 #### Ask Your Neighbor
 
 Everyone is really friendly - don't hesitate to reach out to the people around you for even the most basic of questions.
+
+More [Frequently Asked Questions](FAQ.md)
 
 ### License
 
