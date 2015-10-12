@@ -155,6 +155,8 @@ If you know what team could potentially help you, browse the channels in Slack t
 
 Everyone is really friendly - don't hesitate to reach out to the people around you for even the most basic of questions.
 
+More [Frequently Asked Questions](FAQ.md)
+
 ### License
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Artsy Potential</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://artsy.net" property="cc:attributionName" rel="cc:attributionURL">Artsy</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/artsy/potential" rel="dct:source">https://github.com/artsy/potential</a>.
