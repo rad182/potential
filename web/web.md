@@ -11,7 +11,7 @@
 
 ### Who is on the Web Practice?
 
-Current members of the Web Practice are: [Craig](https://github.com/craigspaeth), [Damon](https://github.com/dzucconi), [Cab](https://github.com/broskoski), [Kana](https://github.com/kanaabe), and [James](https://github.com/jtotoole), [Christina](https://github.com/xtina-starr), [Chung-Yi](https://github.com/starsirius), and [Laura](https://github.com/1aurabrown).
+Current members of the Web Practice are: [Craig](https://github.com/craigspaeth), [Damon](https://github.com/dzucconi), [Cab](https://github.com/broskoski), [Kana](https://github.com/kanaabe), [James](https://github.com/jtotoole), [Christina](https://github.com/xtina-starr), [Chung-Yi](https://github.com/starsirius), [Oksana](https://github.com/oxaudo), [Laura](https://github.com/1aurabrown), and [Roop](https://github.com/anandaroop).
 
 ### Logistics
 
