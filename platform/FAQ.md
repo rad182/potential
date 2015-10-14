@@ -20,7 +20,7 @@ Contact any Platform team member
 8. Copy new password for later
 9. The new user can log in at Artsy’s dedicated sign-in page: https://artsy.signin.aws.amazon.com/console
 10. Send the user their name, password, access key ID, secret access key, and the sign-in link
-11. For SSH access, the user will need to upload their SSH public key to their new account
+11. For SSH access, the user will need to upload their SSH public key to their **OpsWorks** account. You can find this by logging in to AWS, finding OpsWorks under "Services", then MySettings (or try [this link](https://console.aws.amazon.com/opsworks/home?region=us-east-1#/mysettings)).
 
 #### Scale the API’s server capacity
 (e.g., in advance of emails or expected traffic surges)
