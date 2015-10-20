@@ -1,4 +1,4 @@
-Principles of platform engineering (DRAFT)
+Principles of platform engineering (DRAFT only)
 ===
 
 * Share ownership
@@ -8,3 +8,5 @@ Principles of platform engineering (DRAFT)
 * 2 > 1
 * Order matters
 * Done means done
+
+Missing: some notion of when to invest with the right fix/design/abstraction and when to do the expedient thing.
