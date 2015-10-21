@@ -38,7 +38,8 @@ Note that hours are displayed in UTC, so be sure to convert as needed.
 If you are trying to start servers immediately, note that server start-up can take 15-20 minutes (after which they’ll begin accepting requests).
 
 #### Access the redshift data warehouse
-TODO
+
+See the [Redshift doc in Fulcrum](https://github.com/artsy/fulcrum/blob/master/doc/redshift.md).
 
 #### Restart Jenkins
 * Sometimes the jenkins server (http://joe.artsy.net:9000) goes down.
