@@ -54,7 +54,7 @@ Repo: [https://github.com/artsy/artsy-tasseo](https://github.com/artsy/artsy-tas
 
 ## [AWS Opsworks](https://console.aws.amazon.com/opsworks/home?region=us-east-1) Monitoring
 
-* E.g., [gravity-production stack](https://console.aws.amazon.com/opsworks/home?region=us-east-1#/stack/64e2d852-99d2-4235-bd1f-46e7e6fa4e94/monitoring)
+E.g., [gravity-production stack](https://console.aws.amazon.com/opsworks/home?region=us-east-1#/stack/64e2d852-99d2-4235-bd1f-46e7e6fa4e94/monitoring)
 
 ---
 
@@ -66,7 +66,14 @@ Repo: [https://github.com/artsy/artsy-tasseo](https://github.com/artsy/artsy-tas
 
 ## Heroku monitoring
 
-* E.g., [force-production](https://dashboard.heroku.com/apps/force-production/metrics/web)
+E.g., [force-production](https://dashboard.heroku.com/apps/force-production/metrics/web)
+
+---
+
+## Pingdom
+
+* Dashboard: [https://my.pingdom.com/dashboard/checks](https://my.pingdom.com/dashboard/checks)
+* Status page: [http://status.artsy.net](http://status.artsy.net)
 
 ---
 
@@ -84,7 +91,7 @@ Tailing via [momentum](https://github.com/artsy/momentum):
 
 ---
 
-AWS Cloudwatch
+## AWS Cloudwatch
 
 [https://console.aws.amazon.com/cloudwatch/home?region=us-east-1](https://console.aws.amazon.com/cloudwatch/home?region=us-east-1)
 
