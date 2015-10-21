@@ -48,6 +48,8 @@ Current members of the Platform Practice are: [Joey](https://github.com/joeyaghi
 * Other time series data (graphite): http://velocity.artsy.net
 * Snowplow (realtime events): http://artsy-tasseo.herokuapp.com/snowplow
 
+See [Monitoring](Monitoring.md) for more information.
+
 ## Onboarding
 
 ### Our Technologies
