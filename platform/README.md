@@ -22,9 +22,9 @@ Current members of the Platform Practice are: [Joey](https://github.com/joeyaghi
     * Review the [Trello board](https://trello.com/b/2lTTggr8/platform-engineering)
     * Explain any new additions or requests
 * Work is described in a kanban-style [Trello board](https://trello.com/b/2lTTggr8/platform-engineering)
-    * Cards describe “stories”: deployable chunks, focusing on user impact
-    * Work that’s well-understood starts in the “Next” column, from which it’s pulled into “Now,” deployed to “Shipped/Monitoring,” then finally “Delivered” when it’s confirmed to work as expected in production.
-    * We sometimes track less well-understood or larger projects in the “Ideas” column
+    * Cards describe "stories": deployable chunks, focusing on user impact
+    * Work that’s well-understood starts in the "Next" column, from which it’s pulled into "Now," moved to "Done" when your work is done and you are available to work on something else, deployed to "Shipped/Monitoring," then finally "Delivered" when it’s confirmed to work as expected in production.
+    * We sometimes track less well-understood or larger projects in the "Ideas" column
 * Chat in [#platform-humans](https://artsy.slack.com/messages/platform-humans/)
 * GitHub notifications, etc. in [#platform-machines](https://artsy.slack.com/messages/platform-machines/)
 
