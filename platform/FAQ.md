@@ -51,3 +51,12 @@ sudo su
 /etc/init.d/jenkins start  # =>  * Starting Jenkins Continuous Integration Server jenkins
 ```
 
+#### Remove or alter an auction result
+
+Auction results are imported from [MutualArt](http://www.mutualart.com/) and automatically matched to artists in our database. Occasionally a result is incorrect (e.g., never offered for sale, or matched to an incorrect artist), or must be removed as per legal demands from the artist or gallery.
+
+**If a result has been incorrectly matched to a similarly named artist,** a simple fix is to _add_ the missing artist to our database. The next time the [AuctionArtists Heat build](https://github.com/artsy/heat/blob/master/app/models/resque/batch/auction_artists/batch.rb) runs, it will associate the auction result with the new artist.
+
+**If a result must be removed altogether,** use a Gravity console to deactivate it, providing a reason:
+
+    AuctionLot.find('<id>').deactivate!('Requested by Adam citing questionable authenticity')
