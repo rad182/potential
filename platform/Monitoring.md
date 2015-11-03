@@ -43,7 +43,7 @@ Repo: [https://github.com/artsy/artsy-tasseo](https://github.com/artsy/artsy-tas
 
 ---
 
-## New Relic
+## New Relic (request- or host-level metrics)
 
 * [gravity-production](https://rpm.newrelic.com/accounts/334984/applications/1919032) (rails app servers)
 * [gravity-production (workers)](https://rpm.newrelic.com/accounts/334984/applications/10113497)
@@ -52,25 +52,25 @@ Repo: [https://github.com/artsy/artsy-tasseo](https://github.com/artsy/artsy-tas
 
 ---
 
-## [AWS Opsworks](https://console.aws.amazon.com/opsworks/home?region=us-east-1) Monitoring
+## [AWS Opsworks](https://console.aws.amazon.com/opsworks/home?region=us-east-1) Monitoring (CPU, memory, etc.)
 
 E.g., [gravity-production stack](https://console.aws.amazon.com/opsworks/home?region=us-east-1#/stack/64e2d852-99d2-4235-bd1f-46e7e6fa4e94/monitoring)
 
 ---
 
-## AWS Elastic Load Balancer Metrics
+## AWS Elastic Load Balancer Metrics (health, latency)
 
 [AWS Elastic Load Balancer](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LoadBalancers:)
 
 ---
 
-## Heroku monitoring
+## Heroku monitoring (errors, memory, throughput)
 
 E.g., [force-production](https://dashboard.heroku.com/apps/force-production/metrics/web)
 
 ---
 
-## Pingdom
+## Pingdom (uptime)
 
 * Dashboard: [https://my.pingdom.com/dashboard/checks](https://my.pingdom.com/dashboard/checks)
 * Status page: [http://status.artsy.net](http://status.artsy.net)
@@ -91,9 +91,23 @@ Tailing via [momentum](https://github.com/artsy/momentum):
 
 ---
 
-## AWS Cloudwatch
+## Other AWS logs and metrics:
+
+### AWS Cloudwatch
 
 [https://console.aws.amazon.com/cloudwatch/home?region=us-east-1](https://console.aws.amazon.com/cloudwatch/home?region=us-east-1)
+
+### AWS Cloudtrail
+
+[https://console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events](https://console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events)
+
+---
+
+## Database metrics
+
+[Compose.io](https://app.compose.io/artsy/deployments)
+
+[MongoDB Cloud Manager](https://cloud.mongodb.com)
 
 ---
 
