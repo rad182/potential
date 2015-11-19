@@ -1,5 +1,6 @@
 # Platform Practice Overview
 
+* [Principles of platform engineering](Principles.md)
 * [FAQ](FAQ.md)
 * [Domain models](DomainModels.md)
 
