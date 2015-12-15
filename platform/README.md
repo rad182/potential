@@ -14,7 +14,7 @@
 
 ### Who is on the Platform Practice?
 
-Current members of the Platform Practice are: [Joey](https://github.com/joeyaghion), [Barry](https://github.com/bhoggard), [Matt](https://github.com/mzikherman), [Will](https://github.com/wrgoldstein), [Sarah](https://github.com/sweir27) and [Ashkan](https://github.com/ashkan18).
+Current members of the Platform Practice are: [Joey](https://github.com/joeyaghion), [Barry](https://github.com/bhoggard), [Matt](https://github.com/mzikherman), [Will](https://github.com/wrgoldstein), [Sarah](https://github.com/sweir27), [Ashkan](https://github.com/ashkan18) and [Anil](https://github.com/cavvia).
 
 ### Logistics
 
