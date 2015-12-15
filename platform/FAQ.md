@@ -22,6 +22,27 @@ Contact any Platform team member
 10. Send the user their name, password, access key ID, secret access key, and the sign-in link
 11. For SSH access, the user will need to upload their SSH public key to their **OpsWorks** account. You can find this by logging in to AWS, finding OpsWorks under "Services", then MySettings (or try [this link](https://console.aws.amazon.com/opsworks/home?region=us-east-1#/mysettings)).
 
+Email template:
+
+    For operations that require access to AWS, you'll need these:
+    
+    access key: _________
+    secret access key: (sent separately)
+    username: _________
+    
+    These will need to be AWS_ID, AWS_SECRET, and AWS_USER (if your local username is different) in your environment for some Gravity operations.
+    
+    To log into the AWS console, visit our organization sign-in page:
+    
+    https://artsy.signin.aws.amazon.com/console
+    
+    Use the username above and [temporary] password: _________
+    
+    For access to the Opsworks instances (e.g., for SSH or rails consoles), you will need to upload your public SSH key to Opsworks > "My Settings" here:
+    
+    https://console.aws.amazon.com/opsworks/home?region=us-east-1#/mysettings
+
+
 #### Scale the API’s server capacity
 (e.g., in advance of emails or expected traffic surges)
 

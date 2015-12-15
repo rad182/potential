@@ -16,9 +16,9 @@
 
 Current members of the Platform Practice are: [Joey](https://github.com/joeyaghion), [Barry](https://github.com/bhoggard), [Matt](https://github.com/mzikherman), [Will](https://github.com/wrgoldstein), [Sarah](https://github.com/sweir27) and [Ashkan](https://github.com/ashkan18).
 
-### Logistics
+### Process
 
-* Daily stand-up is at 11:15 AM (Eastern) on Mondays through Thursdays. We meet in person (at HQ) or at [https://appear.in/platform](https://appear.in/platform).
+* Stand-up is at 11:15 AM (Eastern) on Mondays through Thursdays. We meet in person (at HQ) or at [https://appear.in/platform](https://appear.in/platform).
     * What are you working on or need help with?
     * Review the [Trello board](https://trello.com/b/2lTTggr8/platform-engineering)
     * Explain any new additions or requests
@@ -27,8 +27,9 @@ Current members of the Platform Practice are: [Joey](https://github.com/joeyaghi
     * Work that’s well-understood starts in the "Next" column, from which it’s pulled into "Now," moved to "Done" when your work is done and you are available to work on something else, deployed to "Shipped/Monitoring," then finally "Delivered" when it’s confirmed to work as expected in production.
     * We sometimes track less well-understood or larger projects in the "Ideas" column
 * Chat in [#platform-humans](https://artsy.slack.com/messages/platform-humans/)
-* GitHub notifications, etc. in [#platform-machines](https://artsy.slack.com/messages/platform-machines/)
-* We hold **Future Fridays**, where we take a break from in progress work to focus on longer-term improvements.
+* Alerts and notifications in [#platform-machines](https://artsy.slack.com/messages/platform-machines/)
+* We hold **Future Fridays**, where we take a break from in progress work to focus on longer-term improvements. _[Experimental]_
+* On a monthly basis, we propose [longer-term goals](https://docs.google.com/a/artsymail.com/document/d/15vlpag2E96iZgytC4U97HrOsmGmpfEb8Sxg9bi7fkxo/edit?usp=sharing), which then inform our ongoing work. _[Experimental]_
 
 ### Our Apps
 
@@ -41,6 +42,8 @@ Current members of the Platform Practice are: [Joey](https://github.com/joeyaghi
 * [Lattice](https://github.com/artsy/lattice): custom report generator
 * [Helix](https://github.com/artsy/helix): dedicated app for genoming artworks/artists
 * See the [engineering projects map](https://trello.com/b/VLlTIM7l/artsy-engineering-projects-map) for a comprehensive list of Platform Practice apps.
+
+Most projects include some metadata in their README describing their deployment, continuous integration, point-people, etc. (e.g., [Radiation's](https://github.com/artsy/radiation#meta)). We tend to use Jenkins for crons, but most projects use Travis, Semaphore, or Codeship (Gravity) for CI. Many simple projects are deployed to [Heroku](https://dashboard.heroku.com/. A few larger-scale or more custom projects are deployed to [AWS Opsworks](https://aws.amazon.com/opsworks/).
 
 ### Our Dashboards
 
