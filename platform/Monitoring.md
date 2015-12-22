@@ -103,6 +103,12 @@ Tailing via [momentum](https://github.com/artsy/momentum):
 
 ---
 
+## Alerting
+
+TODO
+
+---
+
 ## Database metrics
 
 [Compose.io](https://app.compose.io/artsy/deployments)

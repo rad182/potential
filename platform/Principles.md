@@ -5,7 +5,7 @@ Principles of platform engineering (DRAFT only)
 * Experiment easily
 * Build for 10x
 * Code talks
-* 2 > 1
+* 2 > 1 (Pairing)
 * Order matters
 * Done means done
 
