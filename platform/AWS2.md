@@ -4,7 +4,7 @@ Currently, all Amazon Web Services applications (except Solr) run under one acco
 
 In the future, **only IAM users** should be used to login.
 
-To better separate devevelopment, staging, and production environments, we have created three new AWS accounts. IAM users in the `ArtsyEngineering` group have access to the Dev environment, which can be reached by clicking on the dropdown with your name and choosing `Switch Role`. You can switch back to your main IAM account by choosing "back to [your name]" in the dropdown.
+To better separate development, staging, and production environments, we have created three new AWS accounts. IAM users in the `ArtsyEngineering` group have access to the Dev environment, which can be reached by clicking on the dropdown with your name and choosing `Switch Role`. You can switch back to your main IAM account by choosing "back to [your name]" in the dropdown.
 
 Engineers in the `ArtsyStaging` and `ArtsyProduction` groups will have access to those accounts. 
 
