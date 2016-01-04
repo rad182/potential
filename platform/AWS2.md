@@ -2,9 +2,11 @@
 
 Currently, all Amazon Web Services applications (except Solr) run under one account with the login `joey@artsy.net`, and each software engineer has an IAM user for that account.
 
+In the future, **only IAM users** should be used to login.
+
 To better separate devevelopment, staging, and production environments, we have created three new AWS accounts. IAM users in the `ArtsyEngineering` group have access to the Dev environment, which can be reached by clicking on the dropdown with your name and choosing `Switch Role`. You can switch back to your main IAM account by choosing "back to [your name]" in the dropdown.
 
-Engineers in the ArtsyStaging and ArtsyProduction account will have access to those accounts. New hires should first be added to the `ArtsyEngineering` group. 
+Engineers in the `ArtsyStaging` and `ArtsyProduction` groups will have access to those accounts. 
 
 The process that was used to set up cross-account access is described [here](https://blogs.aws.amazon.com/security/post/Tx70F69I9G8TYG/How-to-Enable-Cross-Account-Access-to-the-AWS-Management-Console), but only Tasks 1 and 2 are needed now.
 
@@ -17,3 +19,10 @@ The links an IAM user can use for one-time setup of their Role switching are bel
 * [production](https://signin.aws.amazon.com/switchrole?account=404343144811&roleName=CrossAccountSignin)
 
 [MFA authenticaion](http://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable.html) must be enabled on your account if you have access to Production.
+
+### To set up new hires:
+
+* Create a new IAM user in the main Artsy account and give them their username, password, and AWS ID and Secret.
+* Add them to the `ArtsyEngineering` group to give them access to the dev environment.
+* Ask them to login [here](https://artsy.signin.aws.amazon.com/console) and then click on [this link](https://signin.aws.amazon.com/switchrole?account=857168411456&roleName=CrossAccountSignin) to set up their access to the dev environment. They should put in "Development" for the description on that page.
+
