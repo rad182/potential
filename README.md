@@ -51,7 +51,7 @@ See the [engineering projects map](https://trello.com/b/VLlTIM7l/artsy-engineeri
 
 In order to get applications like Gravity set up, you’ll need the proper AWS credentials. Ask your mentor to give these to you as well.
 
-We use [AWS](https://artsy.signin.aws.amazon.com/console) for storage (S3), hosting websites (OpsWorks), and analytics (Redshift), among other things.
+We use [AWS](https://artsy.signin.aws.amazon.com/console) for storage (S3), hosting websites (OpsWorks), and analytics (Redshift), among other things. We are in the process of moving to [separate AWS accounts for dev, staging, and production](platform/AWS2.md).
 
 ##### Art world notes
 
