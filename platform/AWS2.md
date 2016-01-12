@@ -26,3 +26,6 @@ The links an IAM user can use for one-time setup of their Role switching are bel
 * Add them to the `ArtsyEngineering` group to give them access to the dev environment.
 * Ask them to login [here](https://artsy.signin.aws.amazon.com/console) and then click on [this link](https://signin.aws.amazon.com/switchrole?account=857168411456&roleName=CrossAccountSignin) to set up their access to the dev environment. They should put in "Development" for the description on that page.
 
+### To assume a role in the AWS CLI
+
+Follow the AWS instructions on [cross account roles](http://docs.aws.amazon.com/cli/latest/userguide/cli-roles.html#cli-roles-xaccount).
