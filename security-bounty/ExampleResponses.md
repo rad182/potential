@@ -14,6 +14,18 @@
 > 
 > Artsy
 
+## Issue Acknowledgment
+
+> Hello,
+> 
+> Thanks for reporting this issue. We haven't investigated it yet, but have assigned it the identifier #QD53Eq8Q for internal tracking.
+> 
+> We'll be in touch as we determine whether/how this impacts our site. Thanks,
+> 
+> Joey Aghion
+> 
+> Artsy
+
 ## Nonissue
 
 > Hi Mayur,

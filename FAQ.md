@@ -24,6 +24,7 @@
   * **By Design** - inherent in product/technology choices (e.g., cookies can be copied between machines)
   * **Should Have** - worth fixing, but not urgently (e.g., stricter password policy)
   * **Must Have** - directly exploitable to expose sensitive data, etc. (e.g., password reset tokens not invalidated after use)
+  * If the appropriate research requires more time or different expertise, at least reply to the reporter acknowledging the report and noting the issue "ID" (see the [issue-acknowledgment](security-bounty/ExampleResponses.md#issue-acknowledgment) example response).
   * Issues determined to be invalid or irrelevant should be archived after noting the justification (see the [nonissue](security-bounty/ExampleResponses.md#nonissue) example response).
 * New _Should Have_ and _Must Have_ issues should become work items for the relevant teams. Reply[-all] to the reporter thanking them and explaining that it will be eligible for a bounty when fixed (see the [eligible-for-bounty](security-bounty/ExampleResponses.md#eligible-for-bounty) example response) and noting the issue ID.
 * See the [bounty-nag](security-bounty/ExampleResponses.md#bounty-nag) example response for reporters who repeatedly email to check the status of their reward.
