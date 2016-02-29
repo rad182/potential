@@ -18,7 +18,7 @@ You have been onboarded by ops. You have a mentor and a spirit guide. You now kn
 
 ##### 1Password + Dropbox
 
-Download and install Dropbox and 1Password and configure 1Password vaults as described [in this guide](dropbox-1password/README.md).
+Download and install Dropbox and 1Password and configure 1Password vaults as described [in this guide](https://sites.google.com/a/artsymail.com/it-at-artsy/home/1password-for-teams/1password-for-newcomers).
 
 ##### Slack
 
