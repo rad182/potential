@@ -18,18 +18,23 @@ Current members of the Platform Practice are: [Joey](https://github.com/joeyaghi
 
 ### Process
 
-* Stand-up is at 11:15 AM (Eastern) on Mondays through Thursdays. We meet in person (at HQ) or at [https://appear.in/platform](https://appear.in/platform).
-    * What are you working on or need help with?
-    * Review the [Trello board](https://trello.com/b/2lTTggr8/platform-engineering)
+* Our process is centered on the kanban-style [Platform engineering Trello board](https://trello.com/b/2lTTggr8/platform-engineering)
+* Every other Monday morning, we meet to plan the coming 2-week sprint _[Experimental]_
+  * In advance, we brainstorm suitable goals for the sprint. These become _Epics_.
+  * After reviewing and refreshing the board, we discuss and prioritize the stories each epic demands. These well-understood work items enter the _Next_ column.
+* "Daily" stand-up is at 11:15 AM (Eastern) on Mondays through Thursdays. We meet in person (at HQ) and video-conference at [https://appear.in/platform](https://appear.in/platform).
+    * Taking turns: what are you working on or need help with?
+    * Switching to the [board](https://trello.com/b/2lTTggr8/platform-engineering), we review and update the inner columns:
+      * _Next_ - well-understood work items, approximately prioritized and sized to reflect deployable changes with [ideally] some user impact
+      * _Now_ - in-progress work
+      * _Done_ - completed work ready to be merged or deployed
+      * _Monitoring_ - deployed
+      * _Delivered_ - confirmed to work as expected in production, including any necessary communication or training
     * Explain any new additions or requests
-* Work is described in a kanban-style [Trello board](https://trello.com/b/2lTTggr8/platform-engineering)
-    * Cards describe "stories": deployable chunks, focusing on user impact
-    * Work that’s well-understood starts in the "Next" column, from which it’s pulled into "Now," moved to "Done" when your work is done and you are available to work on something else, deployed to "Shipped/Monitoring," then finally "Delivered" when it’s confirmed to work as expected in production.
-    * We sometimes track less well-understood or larger projects in the "Ideas" column
-* Chat in [#platform-humans](https://artsy.slack.com/messages/platform-humans/)
-* Alerts and notifications in [#platform-machines](https://artsy.slack.com/messages/platform-machines/)
-* We hold **Future Fridays**, where we take a break from in progress work to focus on longer-term improvements. _[Experimental]_
-* On a monthly basis, we propose [longer-term goals](https://docs.google.com/a/artsymail.com/document/d/15vlpag2E96iZgytC4U97HrOsmGmpfEb8Sxg9bi7fkxo/edit?usp=sharing), which then inform our ongoing work. _[Experimental]_
+* We chat in [#platform-humans](https://artsy.slack.com/messages/platform-humans/)
+* Automated notifications appear in [#platform-machines](https://artsy.slack.com/messages/platform-machines/)
+* Significant alerts go to [#platform-alerts](https://artsy.slack.com/messages/platform-alerts/)
+* Fridays are **Future Fridays**, where we take a break from in progress work to focus on longer-term improvements. (See [blog post](http://artsy.github.io/blog/2015/12/22/future-fridays/).) _[Experimental]_
 
 ### Our Apps
 
@@ -51,7 +56,7 @@ Most projects include some metadata in their README describing their deployment,
 * Real-time overall health stats: http://artsy-tasseo.herokuapp.com/velocity
 * Bidding: http://artsy-tasseo.herokuapp.com/bidding
 * Other time series data (graphite): http://velocity.artsy.net
-* Snowplow (realtime events): http://artsy-tasseo.herokuapp.com/snowplow
+* Lots more is available in Redshift and [Looker](https://artsy.looker.com/)
 
 See [Monitoring](Monitoring.md) for more information.
 
@@ -69,7 +74,7 @@ Most of the Platform Practice's apps are built on Rails. If you are unfamiliar w
 
 ### API
 
-Our API is currently made using [Grape](https://github.com/intridea/grape), and housed in [Gravity](https://github.com/artsy/gravity).
+Our API is implemented in the [Gravity](https://github.com/artsy/gravity) project and uses [Grape](https://github.com/intridea/grape).
 
 ### Installing Gravity
 
