@@ -29,3 +29,5 @@ The links an IAM user can use for one-time setup of their Role switching are bel
 ### To assume a role in the AWS CLI
 
 Follow the AWS instructions on [cross account roles](http://docs.aws.amazon.com/cli/latest/userguide/cli-roles.html#cli-roles-xaccount).
+
+Your `~/.aws/credentials` file should resemble [this](https://gist.github.com/bhoggard/3635483f623aa0116451).
