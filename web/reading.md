@@ -1,6 +1,6 @@
 # Web Practice Reading List
 
-A reading list that is useful for onboarding to the web practice technoligies.
+A reading list that is useful for onboarding to the web practice technologies.
 
 ### Firstly it's important to know the language well.
 
