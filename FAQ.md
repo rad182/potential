@@ -33,3 +33,15 @@
 * Once fix has been confirmed and payment details received, move to **Pay**.
 * Pay via Paypal, noting transaction ID in card (dB typically handles this from his personal Paypal account). Move card to **Add to /security page** once paid.
 * [Edit the /security page](https://admin.artsy.net/page/security) to add a [reasonably vague] issue description and the reporter's name/link. Archive card once complete.
+
+## How do I prepare Lunch & Learn
+
+1. Show up a little before Thurs. 12pm EST to prepare the Classroom on the 27th floor
+2. Press the `Source -[> ]` button on the TV remote and switch to DVI
+3. Grab the Thunderbolt connector from the TV and plug it into your laptop
+4. Join the [Google Hangout from the calendar invite](https://plus.google.com/hangouts/_/artsymail.com/weekly-lunch?authuser=1&hceid=YXJ0c3ltYWlsLmNvbV9nODFpbzRhOThkZHZuMWloMWEzbG0yb2NkNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t.ekunklm930k9agfvuolkmnmpc4), click the Screenshare icon on the left `[ ⤼ ]`, and share your "Entire screen"
+5. Make sure your mic works on hangout—if not click the gear icon to change your mic input
+6. **Record the talk** by opening QuickTime on your computer
+8. In QuickTime go to File > New Screen Recording
+9. Click the down caret to the right of the record button `( ● ) ⌄` and make sure your Microphone is set to "Built-in Microphone: Internal Microphone" or "USB..." if you're using the USB mic
+10. Click record and begin your Lunch & Learn!
