@@ -42,6 +42,7 @@
 4. Join the [Google Hangout from the calendar invite](https://plus.google.com/hangouts/_/artsymail.com/weekly-lunch?authuser=1&hceid=YXJ0c3ltYWlsLmNvbV9nODFpbzRhOThkZHZuMWloMWEzbG0yb2NkNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t.ekunklm930k9agfvuolkmnmpc4), click the Screenshare icon on the left `[ ⤼ ]`, and share your "Entire screen"
 5. Make sure your mic works on hangout—if not click the gear icon to change your mic input
 6. **Record the talk** by opening QuickTime on your computer
-8. In QuickTime go to File > New Screen Recording
-9. Click the down caret to the right of the record button `( ● ) ⌄` and make sure your Microphone is set to "Built-in Microphone: Internal Microphone" or "USB..." if you're using the USB mic
+7. In QuickTime go to File > New Screen Recording
+8. Click the down caret to the right of the record button `( ● ) ⌄` and make sure your Microphone is set to "Built-in Microphone: Internal Microphone" or "USB..." if you're using the USB mic
+9. If you want to show mouse clicks, check "Show Mouse Clicks in Recording" in the Options
 10. Click record and begin your Lunch & Learn!
