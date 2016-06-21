@@ -11,9 +11,9 @@ Contact any Platform team member.
 
 1. Review [Heroku's Production Check](https://devcenter.heroku.com/articles/production-check) to ensure production-level dyno resources and database tier.
 2. Add the [New Relic add-on](https://elements.heroku.com/addons/newrelic).
-  . Based on your application decide which product to use for the most apps we use APM
-  . Select web-agent based on your platform
-  . follow newrelic setup
+  - Based on your application decide which product to use for the most apps we use APM
+  - Select web-agent based on your platform
+  - follow newrelic setup
 3. Add the [Papertrail add-on](https://elements.heroku.com/addons/papertrail) and configure archiving to the [artsy-logs](https://console.aws.amazon.com/s3/home?region=us-east-1&bucket=artsy-logs) S3 bucket (which already grants access to Papertrail).
 4. You may want to implement a health-check endpoint (e.g., `/health`) that returns success when basic system dependencies are available.
 5. Add a Pingdom alert that checks the status of that endpoint. The "Alert Artsy (5 min)" policy is a reasonable policy to start with (it alerts in [#platform-machines](https://artsy.slack.com/messages/platform-machines)).
