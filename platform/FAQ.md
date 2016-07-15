@@ -11,7 +11,7 @@ Contact any Platform team member.
 
 1. Review [Heroku's Production Check](https://devcenter.heroku.com/articles/production-check) to ensure production-level dyno resources and database tier.
 2. Have you set up SSL? We use [Heroku's SNI SSL (beta)](https://devcenter.heroku.com/articles/ssl-beta) and our wildcard SSL certificate (files available in 1Password) to securely host apps at *.artsy.net subdomains. You'll also want to set up the corresponding DNS at [DynECT](https://manage.dynect.net/).
-  1. Here are the relevant Heroku commands (while this is in labs):
+  - Here are the relevant Heroku commands (while this is in labs):
       ```
       heroku labs:enable http-sni --app <x>  # enable the lab
       heroku plugins:install heroku-certs --app <x>  # install the _certs beta command
@@ -19,6 +19,7 @@ Contact any Platform team member.
       heroku domains:add <x>.artsy.net --app <x>
       heroku _certs:add concatenated.crt artsy.key --type sni --app <x>
       ```
+  - For a Rails app, `config.force_ssl = true` in an environment file is also needed, to redirect to SSL, add the HSTS header, and mark cookies as 'secure'.
 2. Add the [New Relic add-on](https://elements.heroku.com/addons/newrelic).
   - Based on your application decide which product to use for the most apps we use APM
   - Select web-agent based on your platform
