@@ -18,7 +18,7 @@ Repo: [https://github.com/artsy/artsy-dashing](https://github.com/artsy/artsy-da
 
 http://velocity.artsy.net
 
-![](images/velocity_data_fow.svg)
+![](../images/velocity_data_fow.svg)
 
 * Counts, timers, etc.
 * Uses [Graphite](http://graphite.wikidot.com/) and [statsd](https://github.com/etsy/statsd)
