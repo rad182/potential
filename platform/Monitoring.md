@@ -128,7 +128,7 @@ Tailing via [momentum](https://github.com/artsy/momentum):
 ### AWS Cloudwatch
 
 [https://console.aws.amazon.com/cloudwatch/home?region=us-east-1](https://console.aws.amazon.com/cloudwatch/home?region=us-east-1)
-
+s
 ### AWS Cloudtrail
 
 [https://console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events](https://console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events)
@@ -137,7 +137,15 @@ Tailing via [momentum](https://github.com/artsy/momentum):
 
 ## Alerting
 
-TODO
+Alerts should be sent to platform-alerts@artsymail.com address.  This will notify the Platform team about a failure and in addition, push a message to the `platform-alerts` Slack channel.
+
+### Best practices
+
+Configure a health check in your application.  Create an endpoint that responds to `GET /health` that runs small tests on, at the very least, the application itself, as well as dependent systems in the application.  For example, you could test that the application's Redis connection is healthy by setting then getting an arbitrary key.
+
+Configure this endpoint to return a status code 200 / 500 along with any diagnostic JSON.
+
+Then, configure Pingdom to monitor this endpoint, posting alerts to `platform-alerts@artsymail.com`
 
 ---
 
