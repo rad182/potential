@@ -4,10 +4,10 @@
 
 ## High-level team KPIs
 
-https://artsy-dashing.herokuapp.com/platform
+http://artsy-dashing.herokuapp.com/platform
 
 * Uses Shopify's [dashing](https://github.com/Shopify/dashing)
-* Bidding: [https://artsy-dashing.herokuapp.com/bidding](https://artsy-dashing.herokuapp.com/bidding
+* Bidding: [http://artsy-dashing.herokuapp.com/bidding](http://artsy-dashing.herokuapp.com/bidding
 )
 
 Repo: [https://github.com/artsy/artsy-dashing](https://github.com/artsy/artsy-dashing)
@@ -17,6 +17,8 @@ Repo: [https://github.com/artsy/artsy-dashing](https://github.com/artsy/artsy-da
 ## General time-series data
 
 http://velocity.artsy.net
+
+![](images/velocity_data_fow.svg)
 
 * Counts, timers, etc.
 * Uses [Graphite](http://graphite.wikidot.com/) and [statsd](https://github.com/etsy/statsd)
