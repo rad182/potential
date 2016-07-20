@@ -31,15 +31,23 @@ Repo: [https://github.com/artsy/velocity](https://github.com/artsy/velocity)
 
 ## Real-time dashboards
 
-https://artsy-tasseo.herokuapp.com
+http://artsy-tasseo.herokuapp.com
 
 * Uses [tasseo](https://github.com/obfuscurity/tasseo) library
 * Based on graphite/statsd data
-* Overall health: https://artsy-tasseo.herokuapp.com/velocity
-* Bidding: https://artsy-tasseo.herokuapp.com/bidding
-* Gemini (image-processing): https://artsy-tasseo.herokuapp.com/bidding
+* Overall health: [http://artsy-tasseo.herokuapp.com/velocity](http://artsy-tasseo.herokuapp.com/velocity)
+* Bidding: [http://artsy-tasseo.herokuapp.com/bidding](http://artsy-tasseo.herokuapp.com/bidding)
+* Gemini (image-processing): [http://artsy-tasseo.herokuapp.com/gemini](http://artsy-tasseo.herokuapp.com/gemini)
 
 Repo: [https://github.com/artsy/artsy-tasseo](https://github.com/artsy/artsy-tasseo)
+
+---
+
+## Grafana
+
+[http://metrics.artsy.net](http://metrics.artsy.net)
+
+TODO
 
 ---
 
@@ -47,7 +55,6 @@ Repo: [https://github.com/artsy/artsy-tasseo](https://github.com/artsy/artsy-tas
 
 * [gravity-production](https://rpm.newrelic.com/accounts/334984/applications/1919032) (rails app servers)
 * [gravity-production (workers)](https://rpm.newrelic.com/accounts/334984/applications/10113497)
-* (Warning: sampled)
 * [force-production](https://addons-sso.heroku.com/apps/force-production/addons/315ec54e-9bd5-4c2a-a1cd-96f29696d660)
 
 ---
