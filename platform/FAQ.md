@@ -10,7 +10,8 @@ Contact any Platform team member.
 (Work in progress)
 
 1. Review [Heroku's Production Check](https://devcenter.heroku.com/articles/production-check) to ensure production-level dyno resources and database tier.
-2. Have you set up SSL? We use [Heroku's SNI SSL (beta)](https://devcenter.heroku.com/articles/ssl-beta) and our wildcard SSL certificate (files available in 1Password) to securely host apps at *.artsy.net subdomains. You'll also want to set up the corresponding DNS at [DynECT](https://manage.dynect.net/).
+2. Schedule regular database back-ups (see [scheduling backups](https://devcenter.heroku.com/articles/heroku-postgres-backups#scheduling-backups)).
+3. Have you set up SSL? We use [Heroku's SNI SSL (beta)](https://devcenter.heroku.com/articles/ssl-beta) and our wildcard SSL certificate (files available in 1Password) to securely host apps at *.artsy.net subdomains. You'll also want to set up the corresponding DNS at [DynECT](https://manage.dynect.net/).
   - Here are the relevant Heroku commands (while this is in labs):
       ```
       heroku labs:enable http-sni --app <x>  # enable the lab
@@ -20,16 +21,14 @@ Contact any Platform team member.
       heroku _certs:add concatenated.crt artsy.key --type sni --app <x>
       ```
   - For a Rails app, `config.force_ssl = true` in an environment file is also needed, to redirect to SSL, add the HSTS header, and mark cookies as 'secure'.
-2. Add the [New Relic add-on](https://elements.heroku.com/addons/newrelic).
-  - Based on your application decide which product to use for the most apps we use APM
-  - Select web-agent based on your platform
-  - follow newrelic setup
-3. Add the [Papertrail add-on](https://elements.heroku.com/addons/papertrail) and configure archiving to the [artsy-logs](https://console.aws.amazon.com/s3/home?region=us-east-1&bucket=artsy-logs) S3 bucket (which already grants access to Papertrail).
-4. You may want to implement a health-check endpoint (e.g., `/health`) that returns success when basic system dependencies are available.
-5. Add a Pingdom alert that checks the status of that endpoint. The "Alert Artsy (5 min)" policy is a reasonable policy to start with (it alerts in [#platform-alerts](https://artsy.slack.com/messages/platform-alerts)).
-6. You wrote tests, right? Set up CI with any of our providers (Travis, Circle, or Codeship). Circle is a reliable place to start if you don't have special requirements. See this [example circle.yml](https://github.com/artsy/impulse/blob/master/circle.yml).
-7. Consider automating deployment. Many projects use a provider like Circle to deploy to staging automatically upon merges to the `master` branch. Similar configuration can be used to deploy to production upon merges from the `master` branch to a `release` branch. ([example circle.yml](https://github.com/artsy/impulse/blob/master/circle.yml)).
-8. Review [Monitoring.md](Monitoring.md) for other possible metrics and monitoring.
+4. Add the [New Relic add-on](https://elements.heroku.com/addons/newrelic) and follow set-up instructions.
+5. New Relic's alerting can notify when the error rate increases or the Apdex decreases beyond configured thresholds. Set it to email or post in Slack, as desired (see [Monitoring#Alerting](Monitoring.md#alerting)).
+6. Add the [Papertrail add-on](https://elements.heroku.com/addons/papertrail) and configure archiving to the [artsy-logs](https://console.aws.amazon.com/s3/home?region=us-east-1&bucket=artsy-logs) S3 bucket (which already grants access to Papertrail).
+7. You may want to implement a health-check endpoint (e.g., `/health`) that returns success when basic system dependencies are available.
+8. Add a Pingdom alert that checks the status of that endpoint. The "Alert Artsy (5 min)" policy is a reasonable policy to start with (it alerts in [#platform-alerts](https://artsy.slack.com/messages/platform-alerts)).
+9. You wrote tests, right? Set up CI with any of our providers (Travis, Circle, or Codeship). Circle is a reliable place to start if you don't have special requirements. See this [example circle.yml](https://github.com/artsy/impulse/blob/master/circle.yml).
+10. Consider automating deployment. Many projects use a provider like Circle to deploy to staging automatically upon merges to the `master` branch. Similar configuration can be used to deploy to production upon merges from the `master` branch to a `release` branch. ([example circle.yml](https://github.com/artsy/impulse/blob/master/circle.yml)).
+11. Consider recording application-level metrics to Graphite. See [Monitoring.md](Monitoring.md) for details.
 
 #### Get a read-only data console:
 1. Are you sure you can't satisfy your need with existing reports and dashboards?
