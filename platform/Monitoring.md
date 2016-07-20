@@ -58,6 +58,24 @@ Flexible UI for retrieiving metrics from carbon-api (part of graphite) and build
 
 ---
 
+## EXPERIMENTAL! [Riemann](http://riemann.io/)
+
+Riemann is a metrics collection service that is built around stream-processing and alerting.
+
+With Riemann it is possible to consume data streams, then act on changes in those streams as events, for example triggering an alert might send an email or post to a Slack channel.
+
+Metrics must be sent over the Riemann protocol - [clients](http://riemann.io/clients.html) exist for a number of configurations.
+
+Notably:
+  - https://github.com/riemann/riemann-tools (Systems metrics)
+  - https://github.com/riemann/riemann-ruby-client (Ruby client)
+  - https://github.com/digital-science/riemann-metrics (ActiveSupport client)
+  - https://github.com/koudelka/elixir-riemann (Elixir client)
+  - https://github.com/gsandie/chef_riemann_reporting (Chef notifications client)
+  - https://github.com/simao/riepete (Statsd repeater)
+
+---
+
 ## New Relic (request- or host-level metrics)
 
 * [gravity-production](https://rpm.newrelic.com/accounts/334984/applications/1919032) (rails app servers)
