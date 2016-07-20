@@ -51,7 +51,7 @@ Repo: [https://github.com/artsy/artsy-tasseo](https://github.com/artsy/artsy-tas
 
 ## [Grafana](http://docs.grafana.org/guides/gettingstarted/)
 
-Flexible UI for retrieiving metrics from carbon-api (part of graphite) and building realtime dashboards
+Flexible UI for retrieving metrics from carbon-api (part of graphite) and building realtime dashboards
 
 [http://metrics.artsy.net](http://metrics.artsy.net)
 
@@ -139,7 +139,7 @@ s
 
 ## Alerting
 
-Alerts should be sent to platform-alerts@artsymail.com address.  This will notify the Platform team about a failure and in addition, push a message to the `platform-alerts` Slack channel.
+Platform configures all alerts sent to the `platform-alerts@artsymail.com` email address.  This is configured to notify the Platform team about a failure and in addition, push a message to the `platform-alerts` Slack channel.  Other teams should set up similar notification workflows.
 
 ### Best practices
 
