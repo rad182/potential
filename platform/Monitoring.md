@@ -27,6 +27,10 @@ http://velocity.artsy.net
 
 Repo: [https://github.com/artsy/velocity](https://github.com/artsy/velocity)
 
+### [Collectd](http://collectd.org/)
+
+Collectd is a systems metrics collection daemon we install to push system load / memory / disk space and other metrics to graphite.  Installed via the [artsy_monitoring cookbook](https://github.com/artsy/infrastructure/tree/master/site-cookbooks/artsy_monitoring)
+
 ---
 
 ## Real-time dashboards
@@ -43,11 +47,14 @@ Repo: [https://github.com/artsy/artsy-tasseo](https://github.com/artsy/artsy-tas
 
 ---
 
-## Grafana
+## [Grafana](http://docs.grafana.org/guides/gettingstarted/)
+
+Flexible UI for retrieiving metrics from carbon-api (part of graphite) and building realtime dashboards
 
 [http://metrics.artsy.net](http://metrics.artsy.net)
 
-TODO
+[Artsy dashboard](http://metrics.artsy.net/dashboard/db/artsy) - Systems-wide throughput and event metrics for various Artsy systems
+[Velocity dashboard](http://metrics.artsy.net/dashboard/db/velocity) - Collectd system metrics for the velocity.artsy.net server
 
 ---
 
