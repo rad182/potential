@@ -4,10 +4,10 @@
 
 ## High-level team KPIs
 
-https://artsy-dashing.herokuapp.com/platform
+http://artsy-dashing.herokuapp.com/platform
 
 * Uses Shopify's [dashing](https://github.com/Shopify/dashing)
-* Bidding: [https://artsy-dashing.herokuapp.com/bidding](https://artsy-dashing.herokuapp.com/bidding
+* Bidding: [http://artsy-dashing.herokuapp.com/bidding](http://artsy-dashing.herokuapp.com/bidding
 )
 
 Repo: [https://github.com/artsy/artsy-dashing](https://github.com/artsy/artsy-dashing)
@@ -18,6 +18,8 @@ Repo: [https://github.com/artsy/artsy-dashing](https://github.com/artsy/artsy-da
 
 http://velocity.artsy.net
 
+![](../images/velocity_data_flow.png)
+
 * Counts, timers, etc.
 * Uses [Graphite](http://graphite.wikidot.com/) and [statsd](https://github.com/etsy/statsd)
 * See:
@@ -26,6 +28,10 @@ http://velocity.artsy.net
   * Saved charts
 
 Repo: [https://github.com/artsy/velocity](https://github.com/artsy/velocity)
+
+### [Collectd](http://collectd.org/)
+
+Collectd is a systems metrics collection daemon we install to push system load / memory / disk space and other metrics to graphite.  Installed via the [artsy_monitoring cookbook](https://github.com/artsy/infrastructure/tree/master/site-cookbooks/artsy_monitoring)
 
 ---
 
@@ -43,11 +49,32 @@ Repo: [https://github.com/artsy/artsy-tasseo](https://github.com/artsy/artsy-tas
 
 ---
 
-## Grafana
+## [Grafana](http://docs.grafana.org/guides/gettingstarted/)
+
+Flexible UI for retrieving metrics from carbon-api (part of graphite) and building realtime dashboards
 
 [http://metrics.artsy.net](http://metrics.artsy.net)
 
-TODO
+[Artsy dashboard](http://metrics.artsy.net/dashboard/db/artsy) - Systems-wide throughput and event metrics for various Artsy systems
+[Velocity dashboard](http://metrics.artsy.net/dashboard/db/velocity) - Collectd system metrics for the velocity.artsy.net server
+
+---
+
+## EXPERIMENTAL! [Riemann](http://riemann.io/)
+
+Riemann is a metrics collection service that is built around stream-processing and alerting.
+
+With Riemann it is possible to consume data streams, then act on changes in those streams as events, for example triggering an alert might send an email or post to a Slack channel.
+
+Metrics must be sent over the Riemann protocol - [clients](http://riemann.io/clients.html) exist for a number of configurations.
+
+Notably:
+  - https://github.com/riemann/riemann-tools (Systems metrics)
+  - https://github.com/riemann/riemann-ruby-client (Ruby client)
+  - https://github.com/digital-science/riemann-metrics (ActiveSupport client)
+  - https://github.com/koudelka/elixir-riemann (Elixir client)
+  - https://github.com/gsandie/chef_riemann_reporting (Chef notifications client)
+  - https://github.com/simao/riepete (Statsd repeater)
 
 ---
 
@@ -103,7 +130,7 @@ Tailing via [momentum](https://github.com/artsy/momentum):
 ### AWS Cloudwatch
 
 [https://console.aws.amazon.com/cloudwatch/home?region=us-east-1](https://console.aws.amazon.com/cloudwatch/home?region=us-east-1)
-
+s
 ### AWS Cloudtrail
 
 [https://console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events](https://console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events)
@@ -112,7 +139,15 @@ Tailing via [momentum](https://github.com/artsy/momentum):
 
 ## Alerting
 
-TODO
+Platform configures all alerts sent to the `platform-alerts@artsymail.com` email address.  This is configured to notify the Platform team about a failure and in addition, push a message to the `platform-alerts` Slack channel.  Other teams should set up similar notification workflows.
+
+### Best practices
+
+Configure a health check in your application.  Create an endpoint that responds to `GET /health` that runs small tests on, at the very least, the application itself, as well as dependent systems in the application.  For example, you could test that the application's Redis connection is healthy by setting then getting an arbitrary key.
+
+Configure this endpoint to return a status code 200 / 500 along with any diagnostic JSON.
+
+Then, configure Pingdom to monitor this endpoint, posting alerts to `platform-alerts@artsymail.com`
 
 ---
 
