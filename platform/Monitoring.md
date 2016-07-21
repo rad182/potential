@@ -6,6 +6,8 @@
 
 ![Monitoring concerns and their solutions](../images/monitoring_solutions.gif)
 
+---
+
 ## High-level team KPIs
 
 http://artsy-dashing.herokuapp.com/platform
