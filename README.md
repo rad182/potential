@@ -73,7 +73,7 @@ Engineers typically work on a product team and belong to an _Engineering Practic
     - [Platform Practice Overview](platform/README.md)
 * Mobile Practice
     - Team lead: [Orta](https://github.com/orta) [orta.io](http://orta.io)
-    - Slack: [#mobile](https://artsy.slack.com/messages/mobile)
+    - Slack: [#mobile](https://artsy.slack.com/messages/gmv-ios)
     - [Mobile Practice Playbook](https://github.com/artsy/mobile/blob/master/playbook.md)
 * Web Practice
     - Team lead: [Craig](https://github.com/craigspaeth) [craigspaeth.com](http://craigspaeth.com)
