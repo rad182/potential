@@ -37,7 +37,7 @@
 ## How do I prepare Lunch & Learn
 
 1. Show up a little before Thurs. 12pm EST to prepare the Classroom on the 27th floor
-2. Press the `Source -[> ]` button on the TV remote and switch to DVI
+2. Press the `Source -[> ]` button on the TV remote and switch to HDMI1?
 3. Grab the Thunderbolt connector from the TV and plug it into your laptop
 4. Join the [Google Hangout from the calendar invite](https://plus.google.com/hangouts/_/artsymail.com/weekly-lunch?authuser=1&hceid=YXJ0c3ltYWlsLmNvbV9nODFpbzRhOThkZHZuMWloMWEzbG0yb2NkNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t.ekunklm930k9agfvuolkmnmpc4), click the Screenshare icon on the left `[ ⤼ ]`, and share your "Entire screen"
 5. Make sure your mic works on hangout—if not click the gear icon to change your mic input
