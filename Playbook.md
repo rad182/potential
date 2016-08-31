@@ -1,6 +1,41 @@
-# Engineering Playbook
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-## Goals of this document
+- [Goals of this document](#goals-of-this-document)
+- [Working together](#working-together)
+  - [Project Management](#project-management)
+  - [Workflow](#workflow)
+  - [Continuous improvement](#continuous-improvement)
+- [High-level architecture and technology choices](#high-level-architecture-and-technology-choices)
+  - [Monoliths vs. microservices](#monoliths-vs-microservices)
+  - [Extracting services](#extracting-services)
+  - [Choosing an architecture](#choosing-an-architecture)
+  - [Communication patterns](#communication-patterns)
+  - [Choosing a stack](#choosing-a-stack)
+  - [Platform/Host](#platformhost)
+  - [Naming and locating projects](#naming-and-locating-projects)
+- [Application-level choices](#application-level-choices)
+  - [Authentication and authorization](#authentication-and-authorization)
+  - [Analytics](#analytics)
+  - [Metrics](#metrics)
+  - [Testing](#testing)
+  - [Monitoring](#monitoring)
+  - [Alerting](#alerting)
+  - [Configuration](#configuration)
+  - [DNS](#dns)
+  - [Licenses](#licenses)
+  - [CI](#ci)
+  - [Deploys](#deploys)
+  - [Documentation](#documentation)
+- [Designing APIs](#designing-apis)
+- [Working with the main API (Gravity)](#working-with-the-main-api-gravity)
+- [Platform roadmap](#platform-roadmap)
+  - [Out with the old:](#out-with-the-old)
+  - [And in with the new:](#and-in-with-the-new)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+# Goals of this document
 
 This playbook was inspired by [Thoughtbot's playbook](https://thoughtbot.com/playbook), as well as internal discussions of ways for Artsy's engineering team to share a common vision and hard-won lessons internally. It aims to make good decisions easy, leaving plenty of space for experiments and even radical departures, but improving consistency where helpful. Rather than a set of policies for everyone to conform to, it's here to:
 * help refine our own thinking
@@ -11,9 +46,9 @@ This playbook was inspired by [Thoughtbot's playbook](https://thoughtbot.com/pla
 This is a living document--a perpetual work in progress as we acquire new experiences, struggle through post-mortems, and experiment with new approaches. _You_ are the co-author, so when you're convinced a new tool or practice should be incorporated, submit a PR!
 
 
-## Working together
+# Working together
 
-### Project Management
+## Project Management
 
 Teams at Artsy use a variety of project management processes and tools including:
 * [Github issues](https://guides.github.com/features/issues/)
@@ -24,66 +59,66 @@ Teams at Artsy use a variety of project management processes and tools including
 
 Teams tend to work in short (1-2 week) _sprints_, with a planning meeting at the start and sometimes a review or retrospective at the end.
 
-### Workflow
+## Workflow
 
-### Continuous improvement
+## Continuous improvement
 
 
-## High-level architecture and technology choices
+# High-level architecture and technology choices
 
 These are some of the most important and carefully considered decisions we make as engineers.
 
-### Monoliths vs. microservices
+## Monoliths vs. microservices
 
-### Extracting services
+## Extracting services
 
-### Choosing an architecture
+## Choosing an architecture
 
-### Communication patterns
+## Communication patterns
 
-### Choosing a stack
+## Choosing a stack
 
-### Platform/Host
+## Platform/Host
 
-### Naming and locating projects
-
-
-## Application-level choices
-
-### Authentication and authorization
-
-### Analytics
-
-### Metrics
-
-### Testing
-
-### Monitoring
-
-### Alerting
-
-### Configuration
-
-### DNS
-
-### Licenses
-
-### CI
-
-### Deploys
-
-### Documentation
+## Naming and locating projects
 
 
-## Designing APIs
+# Application-level choices
 
-## Working with the main API (Gravity)
+## Authentication and authorization
 
-## Platform roadmap
+## Analytics
+
+## Metrics
+
+## Testing
+
+## Monitoring
+
+## Alerting
+
+## Configuration
+
+## DNS
+
+## Licenses
+
+## CI
+
+## Deploys
+
+## Documentation
+
+
+# Designing APIs
+
+# Working with the main API (Gravity)
+
+# Platform roadmap
 
 The Artsy platform is a family of interdependent tools and services that originate in a variety of teams and are often adapted far beyond their initial purpose. Components are constantly being expanded upon, maintained, abused, and eventually deprecated. Here is a snapshot of some components in transition.
 
-### Out with the old:
+## Out with the old:
 
 **Gravity processing auction bids.** Historically, auctions were handled by the main API, with bids processed carefully by a single background worker to ensure atomic, sequential updates. Causality includes a better-suited architecture for near-real-time event handling. It already handles processing of live auction events, and over time should handle online bidding as well.
 
@@ -101,7 +136,7 @@ The Artsy platform is a family of interdependent tools and services that origina
 
 **Google site search** [powers](http://artsy.github.io/blog/2014/10/23/how-we-customized-google-site-search-at-artsy/) the site's main search results page. The lack of direct control over these results has been a recurring complaint (e.g., from partners wanting changes reflected more quickly or artists upset about inaccurate titles or images). Though the API already supports full text search of major models, it doesn't include editorial articles or certain static pages. We hope to eventually transition to Elasticsearch-powered search results.
 
-### And in with the new:
+## And in with the new:
 
 The most significant change in our work as a team is that we now pursue smaller, focused solutions where our first impulse used to be to expand the main API to support every new feature. [Causality](https://github.com/artsy/causality) and [Positron](https://github.com/artsy/positron) are examples of this.
 
