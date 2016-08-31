@@ -1,6 +1,7 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
 - [Goals of this document](#goals-of-this-document)
 - [Working together](#working-together)
   - [Project Management](#project-management)
@@ -14,6 +15,7 @@
   - [Choosing a stack](#choosing-a-stack)
   - [Platform/Host](#platformhost)
   - [Naming and locating projects](#naming-and-locating-projects)
+  - [When to open-source](#when-to-open-source)
 - [Application-level choices](#application-level-choices)
   - [Authentication and authorization](#authentication-and-authorization)
   - [Analytics](#analytics)
@@ -82,6 +84,7 @@ These are some of the most important and carefully considered decisions we make 
 
 ## Naming and locating projects
 
+## When to open-source
 
 # Application-level choices
 
