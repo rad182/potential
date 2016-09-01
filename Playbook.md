@@ -118,7 +118,7 @@ To that end, we want to be able to **experiment quickly and easily**. A/B tests,
 
 The tools of change, including aggressive **refactoring**, **data migrations**, **frequent deploys**, and a robust **test suite**, are essential. Obstacles such as slow tests, inconsistent tooling, or unreliable deploys can hamper our efforts (so are worth significant investment) despite being disconnected from user-facing features.
 
-Finally, Artsy aims for a culture of continuous improvement to both code _and_ process. We try to share wins, teach best practices and offer constructive feedback. Tools like lunch-and-learns, [kaizen](https://en.wikipedia.org/wiki/Kaizen) or [retrospectives](https://en.wikipedia.org/wiki/Retrospective) help us reflect on our own practices and make change.
+Finally, Artsy aims for a culture of continuous improvement to both code _and_ process. We try to share wins, teach best practices and offer constructive feedback. Tools like lunch-and-learns, [postmortems](https://github.com/artsy/post_mortems), [kaizen](https://en.wikipedia.org/wiki/Kaizen) or [retrospectives](https://en.wikipedia.org/wiki/Retrospective) help us reflect on our own practices and make change.
 
 ## Product vs. platform
 
