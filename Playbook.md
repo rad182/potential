@@ -10,7 +10,7 @@
     - [Commits](#commits)
     - [Pull requests](#pull-requests)
   - [Continuous improvement](#continuous-improvement)
-  - [Product vs. platform](#product-vs-platform)
+  - [Coordinating between teams](#coordinating-between-teams)
 - [High-level architecture and technology choices](#high-level-architecture-and-technology-choices)
   - [Monoliths vs. microservices](#monoliths-vs-microservices)
   - [Extracting services](#extracting-services)
@@ -83,13 +83,17 @@ http://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/) model of p
 
 The code change itself should be internally consistent and coherent. If you're modifying a method signature, propagate the change to calling code. If you've implemented a new behavior, update test assertions to match. Except in rare cases where you intend to share a work-in-progress, commits should not leave tests in a failing state.
 
-Commit subjects should concisely describe the enhancement or fix in the imperative form ("Add tracking of email deliveries" or "Undo home page A/B test"). Expand on that to explain _why_ and any helpful background or links in the commit body (separated by 1 line). If your project uses Github issues, you can include keywords (like `closes #23`) to [close issues via commit](https://help.github.com/articles/closing-issues-via-commit-messages/).
+Commit subjects should concisely describe the enhancement or fix in the imperative form ("Add tracking of email deliveries" or "Undo home page A/B test"). Git subcommands (like `git blame`, `revert`, `log`...) expect this format and become more transparent to use when you adhere to that convention.
+
+Expand on the subject to explain _why_ and add any helpful background or links in the commit body (separated by 1 line). If your project uses Github issues, you can include keywords (like `closes #23`) to [close issues via commit](https://help.github.com/articles/closing-issues-via-commit-messages/).
 
 Sometimes bad commit messages aren't apparent until later. Feel free to [squash](https://github.com/blog/2141-squash-your-commits) and rewrite commits on your working branch (even when it's in pull request form).
 
 ### Pull requests
 
-The best pull requests start with good [commits](#commits). If commits are a unit of incremental, coherent change, pull requests represent sensible deploy points.
+The best pull requests start with good [commits](#commits). If commits are a unit of incremental, coherent change, pull requests represent sensible deploy points. (This doesn't mean they represent a complete feature or launch. See [continuous improvement](#continuous-improvement).)
+
+At Artsy, PRs are the _most frequent_ form of collaboration.
 
 Once again, the title should concisely explain the change or addition. The description should clearly state:
 * the original problem or rationale,
@@ -105,6 +109,7 @@ A successful PR leaves both submitter and reviewer of 1 mind, able to justify ra
 It's almost never too early to open a PR. Seeing real code encourages feedback that might not flow as freely in an abstract discussion. A single failing test can be enough to trigger discussion, and clearly indicates that the PR can't yet be merged. (We prefer intentionally failing tests to labels like `#dontmerge` for this purpose.)
 
 Further reading:
+* See some epic examples of great PRs: [artsy/gravity#9787](https://github.com/artsy/gravity/pull/9787), [artsy/gravity#9557](https://github.com/artsy/gravity/pull/9557)
 * [On empathy and pull requests](https://slack.engineering/on-empathy-pull-requests-979e4257d158)
 * [Rules of communicating at Github](http://ben.balter.com/2014/11/06/rules-of-communicating-at-github/)
 
@@ -114,15 +119,20 @@ Artsy exists in a changing business environment and is itself building a shiftin
 
 **Big things don't ship.** To ship anything, it must first be made small. Large projects can be expedited not by everyone combining efforts toward a grand vision, but by identifying the incremental, graceful steps that can be taken _now_ in the correct direction.
 
-To that end, we want to be able to **experiment quickly and easily**. A/B tests, feature flags, and robust metrics are investments that quickly help make new ideas more concrete.
+To that end, we want to be able to **experiment quickly and easily**. A/B tests, feature flags, role-based access, and robust metrics are investments that quickly help make new ideas more concrete.
 
-The tools of change, including aggressive **refactoring**, **data migrations**, **frequent deploys**, and a robust **test suite**, are essential. Obstacles such as slow tests, inconsistent tooling, or unreliable deploys can hamper our efforts (so are worth significant investment) despite being disconnected from user-facing features.
+The tools of change, including aggressive **refactoring**, **data migrations**, **frequent deploys**, and a robust **test suite**, are essential. Obstacles such as slow tests, inconsistent tooling, or unreliable deploys can hamper our efforts, so are worth significant investment despite being disconnected from user-facing features.
 
 Finally, Artsy aims for a culture of continuous improvement to both code _and_ process. We try to share wins, teach best practices and offer constructive feedback. Tools like lunch-and-learns, [postmortems](https://github.com/artsy/post_mortems), [kaizen](https://en.wikipedia.org/wiki/Kaizen) or [retrospectives](https://en.wikipedia.org/wiki/Retrospective) help us reflect on our own practices and make change.
 
-## Product vs. platform
+## Coordinating between teams
 
-Often there's a tension between shipping product features and making healthful platform enhancements. We resist this dichotomy. Artsy's platform _is_ the cumulative work of its product teams, and will only succeed when our efforts combine to enable higher and higher-level features rather than local solutions.
+Often there's tension between meeting a single product team's goals and building what could be shared or most useful across the platform. We resist this dichotomy. Artsy's platform _is_ the cumulative work of its product teams, and will only succeed when our efforts combine to enable higher and higher-level features rather than local solutions.
+
+Examples of such wins include:
+* Kinetic and Watt libraries being shared broadly to unify management applications
+* Devising a common pattern for exporting core data that is reused by many apps and consumed for accounting, analytics, and machine-learning purposes
+* ...
 
 When questions arise about worthwhile effort and investment, they can usually be resolved by respective teams conferring. Often there are opportunities to join forces and/or make deliberate, short-term compromises in pursuit of a healthful state.
 
