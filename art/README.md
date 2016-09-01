@@ -35,6 +35,8 @@
 
 * [The $12 Million Stuffed Shark: The Curious Economics of Contemporary Art](http://www.amazon.com/The-Million-Stuffed-Shark-Contemporary/dp/0230620590)
 * [The Supermodel and the Brillo Box: Back Stories and Peculiar Economics from the World of Contemporary Art](http://www.amazon.com/The-Supermodel-Brillo-Box-Contemporary/dp/1137279087)
+* [Seven Days in the Art World](https://www.amazon.com/Seven-Days-World-Sarah-Thornton/dp/039333712X)
+* [33 Artists in 3 Acts](https://www.amazon.com/33-Artists-Acts-Sarah-Thornton/dp/039335167X/ref=sr_1_1?s=books&ie=UTF8&qid=1472764571&sr=1-1&keywords=33+artists+in+3+acts)
 
 You'll find many books in the 27th floor library, too.
 
