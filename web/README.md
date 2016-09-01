@@ -11,13 +11,16 @@
 
 ### Who is on the Web Practice?
 
-Current members of the Web Practice are: [Craig](https://github.com/craigspaeth), [Damon](https://github.com/dzucconi), [Cab](https://github.com/broskoski), [Kana](https://github.com/kanaabe), [James](https://github.com/jtotoole), [Christina](https://github.com/xtina-starr), [Chung-Yi](https://github.com/starsirius), [Oksana](https://github.com/oxaudo), [Laura](https://github.com/1aurabrown), and [Roop](https://github.com/anandaroop).
+Current members of the Web Practice are: [Craig](https://github.com/craigspaeth), [Cab](https://github.com/broskoski), [Kana](https://github.com/kanaabe), [Christina](https://github.com/xtina-starr), [Chung-Yi](https://github.com/starsirius), [Oksana](https://github.com/oxaudo), [Laura](https://github.com/1aurabrown), [Roop](https://github.com/anandaroop), [Matt Z.](https://github.com/mzikherman).
 
 ### Logistics
 
-* Weekly stand-up on Thursday 2:00pm (NYC time)
+* Weekly stand-up on Thursday 1:30pm (NYC time)
+  * Announce milestones and new repos
+  * Are there any technologies you've come across recently that you'd like to see at Artsy?
   * What are you working on or need help with?
   * Explain any web-wide techinical concerns for the week.
+  * Props
 * General Chat in [#web](https://artsy.slack.com/messages/web/)
 * Artsy Writer support in [#publishing-support](https://artsy.slack.com/messages/publishing-support/)
 
