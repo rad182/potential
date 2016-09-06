@@ -123,7 +123,7 @@ The Artsy platform is a family of interdependent tools and services that origina
 
 ## Out with the old:
 
-**Gravity processing auction bids.** Historically, auctions were handled by the main API, with bids processed carefully by a single background worker to ensure atomic, sequential updates. Causality includes a better-suited architecture for near-real-time event handling. It already handles processing of live auction events, and over time should handle online bidding as well.
+**Gravity processing auction bids.** Historically, auctions were handled by the main API, with bids processed carefully by a single background worker to ensure atomic, sequential updates (however, updates are non-atomic with respect to reads, resulting in observable intermediate states). Causality includes a better-suited architecture for near-real-time event handling. It currently exclusively handles processing of live auction events and shadows the Gravity bidding engine for timed auctions. Eventually, it will be the source-of-truth for all auction state.
 
 **Inquiry conversations.** Inquiries initially comprised simple email notifications of collectors' interest in an artwork. Since then, inquiries have grown to support shows, sophisticated email routing and aliasing, engagement metrics, invoices, and more real-time behaviors. [Impulse](https://github.com/artsy/impulse) was extracted from Gravity to be the authoritative source on collector/partner sales conversations.
 
