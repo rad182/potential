@@ -7,6 +7,20 @@
 * [Artspace](http://www.artspace.com/)
 * [Paddle8](https://paddle8.com/)
 
+### Artsy Editorial must-reads
+
+* [The Future of Art According to Hans Ulrich Obrist](https://www.artsy.net/article/hans-ulrich-obrist-the-future-of-art-according-to-hans-ulrich-obrist)
+* [You Can Be a Mother and Still Be a Successful Artist](https://www.artsy.net/article/artsy-editorial-why-motherhood-won-t-hinder-your-career-as-an-artist)
+* [For Riker's Most Troubled Inmates, Art Offers Hope](https://www.artsy.net/article/artsy-editorial-for-rikers-s-most-troubled-inmates-art-offers-hope)
+* [30 Emerging Artists to Watch This Spring](
+https://www.artsy.net/article/artsy-editorial-30-emerging-artists-to-watch-this-spring)
+* [If You Don't Understand Conceptual Art, It's Not Your Fault](https://www.artsy.net/article/artsy-editorial-if-you-don-t-understand-conceptual-art-it-s-not-your-fault)
+* [How to Teach Your Children to Care about Art](https://www.artsy.net/article/artsy-editorial-how-to-teach-your-children-to-care-about-art)
+* [It's Time to End the Cynicism Plaguing the Art World](
+https://www.artsy.net/article/artsy-editorial-it-s-time-to-end-the-cynicism-plaguing-the-art-world)
+* [NBA All-Star Amar'e Stoudemire Is Turning Athletes into Emerging Art Collectors](
+https://www.artsy.net/article/artsy-editorial-nba-all-star-amar-e-stoudemire-is-turning-athletes-into-emerging-art-collectors)
+
 ### News and Reviews
 
 * Of course, start with Artsy's [editoral coverage](https://www.artsy.net/articles)
@@ -53,6 +67,7 @@ You'll find many books in the 27th floor library, too.
 
 ### Podcasts
 
+* [Artsy Podcast](https://soundcloud.com/artsypodcast)
 * [Bad at Sports](http://badatsports.com/)
 * [Modern Art Notes Podcast](http://manpodcast.com/)
 
