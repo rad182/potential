@@ -2,10 +2,10 @@
 
 How to...
 
-#### Suggest a feature or point out a bug
+### Suggest a feature or point out a bug
 Contact any Platform team member.
 
-#### Make a new Heroku app or service "production-ready"
+### Make a new Heroku app or service "production-ready"
 
 (Work in progress)
 
@@ -30,11 +30,11 @@ Contact any Platform team member.
 10. Consider automating deployment. Many projects use a provider like Circle to deploy to staging automatically upon merges to the `master` branch. Similar configuration can be used to deploy to production upon merges from the `master` branch to a `release` branch. ([example circle.yml](https://github.com/artsy/impulse/blob/master/circle.yml)).
 11. Consider recording application-level metrics to Graphite. See [Monitoring.md](Monitoring.md) for details.
 
-#### Get a read-only data console:
+### Get a read-only data console:
 1. Are you sure you can't satisfy your need with existing reports and dashboards?
 2. https://docs.google.com/a/artsymail.com/document/d/1hCTBaynWLnSxgNQEWRTU1nm27KIizQiLgO5b0jHs7hA/edit
 
-#### Add a new AWS user
+### Add a new AWS user
 1. Navigate to IAM from the AWS dashboard
 2. Users > Create new users
 3. Choose user’s name (e.g., jill) > Create
@@ -68,7 +68,7 @@ Email template:
     https://console.aws.amazon.com/opsworks/home?region=us-east-1#/mysettings
 
 
-#### Scale the API’s server capacity
+### Scale the API’s server capacity
 (e.g., in advance of emails or expected traffic surges)
 
 1. Log in to AWS with your IAM account at [Artsy’s dedicated sign-in page](https://artsy.signin.aws.amazon.com/console) (request an account if you don’t have one)
@@ -83,11 +83,11 @@ There are likely already some time-based servers scheduled to run during peak tr
 Note that hours are displayed in UTC, so be sure to convert as needed.
 If you are trying to start servers immediately, note that server start-up can take 15-20 minutes (after which they’ll begin accepting requests).
 
-#### Access the redshift data warehouse
+### Access the redshift data warehouse
 
 See the [Redshift doc in Fulcrum](https://github.com/artsy/fulcrum/blob/master/doc/redshift.md).
 
-#### Restart Jenkins
+### Restart Jenkins
 * Sometimes the jenkins server (http://joe.artsy.net:9000) goes down.
 * Try SSH-ing: `ssh joe@joe.artsy.net` (password is in Engineering 1Password vault)
 * Restart the jenkins service:
@@ -97,7 +97,7 @@ sudo su
 /etc/init.d/jenkins start  # =>  * Starting Jenkins Continuous Integration Server jenkins
 ```
 
-#### Remove or alter an auction result
+### Remove or alter an auction result
 
 Auction results are imported from [MutualArt](http://www.mutualart.com/) and automatically matched to artists in our database. Occasionally a result is incorrect (e.g., never offered for sale, or matched to an incorrect artist), or must be removed as per legal demands from the artist or gallery.
 

@@ -3,6 +3,10 @@
 * [Principles of platform engineering](Principles.md)
 * [FAQ](FAQ.md)
 * [Domain models](DomainModels.md)
+* [Working with the API](WorkingWithGravity.md)
+* [Principles](Principles.md)
+* [Monitoring](Monitoring.md)
+* [Restoring data](RestoringData.md)
 
 ## Team Information
 
